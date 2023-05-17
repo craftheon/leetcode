@@ -28,7 +28,7 @@ Output: [0,1]
 ```
 
 ### Code
-[✅ Go](./twoSum.go) / [✅ Javascript](./twoSum.js)
+[✅ Go](./twoSum.go) / [✅ Rust](./twoSum.rs) / [✅ Javascript](./twoSum.js)
 
 ### Solution
 [zh-CN](./README_zh-CN.md)
