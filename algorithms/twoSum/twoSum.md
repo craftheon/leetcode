@@ -30,4 +30,6 @@ Output: [0,1]
 ### Code
 [Go](./twoSum.go) / [Javascript](./twoSum.js)
 
-### Solution:
+### Solution
+[zh-CN](./twoSum_zh-CN.md)
+
