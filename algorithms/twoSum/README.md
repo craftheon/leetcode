@@ -31,5 +31,5 @@ Output: [0,1]
 [Go](./twoSum.go) / [Javascript](./twoSum.js)
 
 ### Solution
-[zh-CN](./twoSum_zh-CN.md)
+[zh-CN](./README_zh-CN.md)
 
