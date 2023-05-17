@@ -1,8 +1,3 @@
-
-fn twoSum() {
-    
-}
-
 fn main() {
-
+    
 }
