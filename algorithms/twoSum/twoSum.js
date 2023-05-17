@@ -10,7 +10,7 @@ function twoSum(nums, target) {
         map[num] = index
     }
 
-    return []
+    return null
 }
 
 

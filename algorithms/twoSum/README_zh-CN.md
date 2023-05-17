@@ -42,7 +42,7 @@ step 2:
 function twoSum(nums, target) { // [2, 7, 11, 15]  9
     const map = {}
     for (const [index, num] of nums.entries()) {
-        if (map[target - num] !== undefined) { // map[2] ✅ value = 7
+        if (map[target - num] !== undefined) { // map[2] ✅ value = 0
             return [map[target - num], index]  // <- [0, 1]
         }
         map[num] = index

@@ -1,5 +1,5 @@
 function eqArr(source, target) {
-    if (source.length !== target.length) return false
+    if (source?.length !== target?.length) return false
     for(let i = 0; i < source.length; i ++) {
         if (source[i] !== target[i]) {
             return false
