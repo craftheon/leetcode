@@ -8,5 +8,3 @@ edition = "2021"
 [dependencies]
 
 [[bin]]
-name = "twoSum"
-path = "./twoSum/twoSum.rs"
