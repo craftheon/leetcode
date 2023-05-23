@@ -1,4 +1,4 @@
-TwoSum
+Two Sum
 ---
 
 ### Problem
