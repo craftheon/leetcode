@@ -187,7 +187,7 @@ var threeSumClosest = function(nums, target) {
 结果：
 AC O(n^2)
 
-# 19. Remove Nth Node From End of List
+## 19. Remove Nth Node From End of List
 题目要点：从链表的末尾移除第n个元素
 
 **最初思路**
@@ -253,6 +253,69 @@ var removeNthFromEnd = function(head, n) {
 **看完题解的思路**
 - 双指针，快慢指针解法，设置两个相向的指针，第一个指针距第二个n的距离，第二个指针到达终点后，第一个指针的位置则就是需要移除的那个元素
 - 但从实现的角度，这种方式代码量更多一些
+
+## 27. Remove Element
+**最初的思路**
+```javascript
+var removeElement = function(nums, val) {
+    return nums.filter(n => n !== val).length
+};
+```
+
+
+**看完题解后的思路**
+```javascript
+var removeElement = function(nums, val) {
+    let k = 0
+    for (let i = 0; i < nums.length; i ++) {
+        if (nums[i] !== val) {
+            nums[k] = nums[i]
+            k ++
+        }
+    }
+    return k
+};
+```
+
+### 61. Rotate List ❌
+题目大意：第k个节点后的所有节点移动到链表的最头部
+**最初思路**
+- 快慢指针，左指针和右指针中间间隔k个节点，右指针移动到链表末尾结束，左右指针中间的节点移到链表的最头部。
+
+结果：不知道怎么实现。
+
+**题解思路**
+``` javascript
+var rotateRight = function(head, k) {
+  if (!head) return head;
+	let len = 0,
+		ptr = head;
+
+	while (ptr) {
+		len++;
+		ptr = ptr.next;
+	}
+    k = k % len;
+	let prev = head;
+	ptr = head;
+
+    while (k--) {
+		ptr = ptr.next;
+	}
+
+	while (ptr.next) {
+		prev = prev.next;
+		ptr = ptr.next;
+	}
+
+    ptr.next = head;
+	head = prev.next;
+	prev.next = null;
+	return head;
+};
+```
+
+思路：
 
 
 ---
