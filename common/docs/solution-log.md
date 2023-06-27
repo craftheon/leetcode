@@ -317,6 +317,26 @@ var rotateRight = function(head, k) {
 
 思路：
 
+### 165.
+题目大意：比较两个版本号大小，version1大于version2输出1，小于输出-1，其他情况输出0
+
+**最初的思路**
+``` javascript
+var compareVersion = function(version1, version2) {
+    let v1 = version1.split('.'), 
+        v2 = version2.split('.'), 
+        len = Math.max(v1.length, v2.length)
+    for(let i = 0; i < len; i ++) {
+        if ((+v1[i] || 0) > (+v2[i] || 0)) return 1
+        if ((+v1[i] || 0) < (+v2[i] || 0)) return -1
+    }
+    return 0;
+};
+```
+思路：
+这道题比较简单，但有几个点需要注意：
+- 字符串split后是字符串数组，要比较里面元素大小时要进行类型转换。
+- 版本号长度不一定相等，例如1.1.1 和 1，这样也是可以比较的，但需要补0
 
 ---
 
