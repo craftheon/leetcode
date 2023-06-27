@@ -317,7 +317,7 @@ var rotateRight = function(head, k) {
 
 思路：
 
-### 165.
+### 165.Compare Version Numbers
 题目大意：比较两个版本号大小，version1大于version2输出1，小于输出-1，其他情况输出0
 
 **最初的思路**
