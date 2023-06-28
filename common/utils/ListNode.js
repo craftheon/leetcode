@@ -7,14 +7,14 @@ function createFromArr(values) {
     if (!values.length) return null
     const l = new ListNode(values[0])
     let p = l
-    for(let i = 1; i < values.length; i ++) {
+    for (let i = 1; i < values.length; i++) {
         p.next = new ListNode(values[i])
         p = p.next
     }
     return l
 }
 
-function reductionToArr(head){
+function reductionToArr(head) {
     if (!head) return []
     const a = []
     while (head.next) {
@@ -30,3 +30,4 @@ module.exports = {
     createFromArr,
     reductionToArr
 }
+

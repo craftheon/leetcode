@@ -338,6 +338,91 @@ var compareVersion = function(version1, version2) {
 - 字符串split后是字符串数组，要比较里面元素大小时要进行类型转换。
 - 版本号长度不一定相等，例如1.1.1 和 1，这样也是可以比较的，但需要补0
 
+
+### 42.Trapping Rain Water ❌
+题目大意：经典的接雨水，求容器能接的雨水最大值
+题解：https://zhuanlan.zhihu.com/p/79811305 回头看
+
+**没做出来，抄题解的代码：**
+```javascript
+var trap = function(height) {
+    let res = 0, left = 0, right = height.length - 1, maxLeft = 0, maxRight = 0;
+
+    while(left <= right) {
+        if (height[left] <= height[right]) {
+            if (height[left] > maxLeft) {
+                maxLeft = height[left]
+            } else {
+                res += maxLeft - height[left]
+            }
+            left += 1
+        } else {
+            if (height[right] >= maxRight) {
+                maxRight = height[right]
+            } else {
+                res += maxRight - height[right]
+            }
+            right -= 1
+        }
+    }
+
+    return res
+};
+```
+思路：
+本题目还是使用双指针，和11题有点相似，使用对向的双指针遍历整个数组，但和11题的区别以及具体的理解需要再整理
+
+
+### 80. Remove Duplicates from Sorted Array II ❌
+题目大意：给一个有序数组，数组中相同的元素最多不能超过2个，超出的删除，返回按此逻辑处理后的数组长度
+
+**没做出来，抄题解的代码：**
+```javascript
+var removeDuplicates = function(nums) {
+    let slow = 0
+
+    for(let fast = 0; fast < nums.length; fast ++) {
+        if (fast < 2 || nums[slow - 2] !== nums[fast]) {
+            nums[slow] = nums[fast]
+            slow ++
+        }
+    }
+
+    return slow
+};
+```
+
+思路：
+- 看到有序数组，就考虑快慢指针
+- 此题目可以定义一个快慢指针，其中快指针从头到尾遍历数组，当慢指针指向倒数第二个数与快指针指向的数不相等时，移动慢指针，同时赋值慢指针
+- 原地删除数组元素的题目可以使用快慢指针
+
+### 86. Partition List
+题目大意：给一个链表和一个k，要求比k小的元素排在左边，大于等于k的排在右边，但排列时尽量保证原有的顺序。
+**思路**
+``` javascript
+var partition = function(head, x) {
+    let s = new ListNode(null), l = new ListNode(null), ps = s, pl = l
+    while(head) {
+        if (head.val >= x) {
+            pl.next = new ListNode(head.val)
+            pl = pl.next
+        } else {
+            ps.next = new ListNode(head.val)
+            ps = ps.next
+        }
+        head = head.next
+    }
+    ps.next = l.next
+    return s.next
+};
+```
+思路：
+- 开始没思路，看到题解的提示后顺利AC
+- 因为题目要求链表中保留原有顺序，并且不要求在原有链表上改动，所以可以直接构建两个链表
+- 链表1保存比k小的元素，链表2保存比k大的元素
+- 最后返回链表1+链表2
+
 ---
 
 ---
