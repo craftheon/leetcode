@@ -423,6 +423,56 @@ var partition = function(head, x) {
 - 链表1保存比k小的元素，链表2保存比k大的元素
 - 最后返回链表1+链表2
 
+
+### 443. String Compression ❌
+题目大意：字符串压缩，例如aabbccc，压缩为a2b2c3的格式。
+**抄题解思路**
+``` javascript
+var compress = function(chars) {
+    let i = 0, j = 0
+    while(j < chars.length) {
+        let count = 0, cur = chars[j]
+        while(j < chars.length && chars[j] === cur) {
+            j ++
+            count ++
+        }
+        chars[i++] = cur
+        if (count > 1) {
+            for(let d of count.toString()) {
+                chars[i++] = d
+            }
+        }
+    }
+    return i
+};
+```
+
+思路：
+- 此题要求在原数组上操作，不能开辟额外的增长空间，看到这种在原链表、数组上操作的题目，应首先想到快慢指针
+- 此题定义快慢指针，快指针遍历重复元素，有重复则增加，慢指针用来记录元素和元素的个数，快指针遍历完全部元素则结束
+
+### 2161. Partition Array According to Given Pivot
+
+``` javascript
+var pivotArray = function(nums, pivot) {
+    let l = [], m = [], r = []
+    for(let i = 0; i < nums.length; i ++) {
+        if (nums[i] < pivot) {
+            l.push(nums[i])
+        } else if (nums[i] > pivot) {
+            r.push(nums[i])
+        } else {
+            m.push(nums[i])
+        }
+    }
+    return l.concat(m, r)
+};
+```
+
+思路：
+- 这道题和leetcode[86]题思路类似，更简单一点，唯一要注意的是元素中等于pivot的元素
+- 所以要定义3个数组
+
 ---
 
 ---
