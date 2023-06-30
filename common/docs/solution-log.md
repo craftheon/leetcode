@@ -473,6 +473,45 @@ var pivotArray = function(nums, pivot) {
 - 这道题和leetcode[86]题思路类似，更简单一点，唯一要注意的是元素中等于pivot的元素
 - 所以要定义3个数组
 
+### 202. Happy Number ❌
+题目大意：判断一个数字是否是“快乐数字”，“快乐数字”的定义是，不断的把这个数字的每个数字的平方和加起来，反复的加，最终如果能有结果是 1，则是“快乐数字”，如果不能得到一，出现了循环，则输出 false。
+**最初思路**
+``` javascript
+var isHappy = function(n) {
+    let r = n
+    while (r.toString().length > 1) {
+        let a = 0
+        for(let i = 0; i < r.toString().length; i ++) {
+            a = a + (r.toString()[i] * r.toString()[i])
+        }
+        r = Number(a)
+    }
+    if (r === 1) {
+        return true
+    }
+    return false
+};
+```
+
+**题解思路**
+``` javascript
+var isHappy = function(n) {
+    const set = new Set()
+    let sum = n
+
+    while (sum !== 1) {
+        let newSum = 0
+        sum.toString().split('').forEach(v => newSum += v * v)
+        
+        if (set.has(newSum)) return false
+        set.add(newSum)
+        sum = newSum
+    } 
+
+    return true 
+};
+```
+
 ---
 
 ---
