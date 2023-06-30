@@ -1,4 +1,4 @@
-Two Sum
+Two Sum [zh-CN](./README_zh-CN.md)
 ---
 
 ### Problem
@@ -28,8 +28,8 @@ Output: [0,1]
 ```
 
 ### Code
-[✅ Go](./twoSum.go) / [✅ Javascript](./twoSum.js)
+[✅ Go](./solution.go) / [✅ Javascript](./solution.js)
 
 ### Solution
-[zh-CN](./README_zh-CN.md)
+
 
