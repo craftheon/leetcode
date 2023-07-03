@@ -28,7 +28,7 @@ Output: [0,1]
 ```
 
 ### Code
-[✅ Go](./solution.go) / [✅ Javascript](./solution.js)
+[✅ Go](./solution.go) / [✅ Javascript](./solution.js) / [✅ Python](./solution.py)
 
 ### Solution
 
