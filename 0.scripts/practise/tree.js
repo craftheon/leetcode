@@ -82,21 +82,22 @@ var traverseAfter2 = function (root) {
   return res
 }
 
-// console.log(traverseFirst(tree))
+console.log(traverseFirst(tree))
 // console.log(traverseFirst2(tree))
-// console.log(traverseMid(tree))
+console.log(traverseMid(tree))
 // console.log(traverseMid2(tree))
-// console.log(traverseAfter(tree))
+console.log(traverseAfter(tree))
 // console.log(traverseAfter2(tree))
 
-// 递归遍历数组
-var forEach = function (arr, i = 0) {
-  if (i == arr.length) {
-    return;
-  }
-  console.log(arr[i])
-  forEach(arr, i + 1);
-  console.log(arr[i])
+var traverse = function (root) {
+  if (root === null) return;
+  console.log("从节点 " + root?.val + " 进入节点 " + root.left?.val);
+  traverse(root.left);
+  console.log("从节点 " + root.left?.val + " 回到节点 " + root?.val);
+
+  console.log("从节点 " + root?.val + " 进入节点 " + root.right?.val);
+  traverse(root.right);
+  console.log("从节点 " + root.right?.val + " 回到节点 " + root?.val);
 }
 
-forEach([1, 2, 3, 4, 5])
+traverse(tree)
