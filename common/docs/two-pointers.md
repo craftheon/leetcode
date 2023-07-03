@@ -1,7 +1,5 @@
-Programs log
+two pointers
 ---
-
-two-pointers
 双指针要领：
 - 大部分双指针题目要排序，是否排序取决于双指针区间内元素的**加和**是否会影响指针的移动。例如Leetcode[11]，指针移动的关键条件是比较左右指针元素值的大小，这种情况就无需排序。
 
@@ -277,7 +275,7 @@ var removeElement = function(nums, val) {
 };
 ```
 
-### 61. Rotate List ❌
+## 61. Rotate List ❌
 题目大意：第k个节点后的所有节点移动到链表的最头部
 **最初思路**
 - 快慢指针，左指针和右指针中间间隔k个节点，右指针移动到链表末尾结束，左右指针中间的节点移到链表的最头部。
@@ -317,7 +315,7 @@ var rotateRight = function(head, k) {
 
 思路：
 
-### 165.Compare Version Numbers
+## 165.Compare Version Numbers
 题目大意：比较两个版本号大小，version1大于version2输出1，小于输出-1，其他情况输出0
 
 **最初的思路**
@@ -339,7 +337,7 @@ var compareVersion = function(version1, version2) {
 - 版本号长度不一定相等，例如1.1.1 和 1，这样也是可以比较的，但需要补0
 
 
-### 42.Trapping Rain Water ❌
+## 42.Trapping Rain Water ❌
 题目大意：经典的接雨水，求容器能接的雨水最大值
 题解：https://zhuanlan.zhihu.com/p/79811305 回头看
 
@@ -373,7 +371,7 @@ var trap = function(height) {
 本题目还是使用双指针，和11题有点相似，使用对向的双指针遍历整个数组，但和11题的区别以及具体的理解需要再整理
 
 
-### 80. Remove Duplicates from Sorted Array II ❌
+## 80. Remove Duplicates from Sorted Array II ❌
 题目大意：给一个有序数组，数组中相同的元素最多不能超过2个，超出的删除，返回按此逻辑处理后的数组长度
 
 **没做出来，抄题解的代码：**
@@ -397,7 +395,7 @@ var removeDuplicates = function(nums) {
 - 此题目可以定义一个快慢指针，其中快指针从头到尾遍历数组，当慢指针指向倒数第二个数与快指针指向的数不相等时，移动慢指针，同时赋值慢指针
 - 原地删除数组元素的题目可以使用快慢指针
 
-### 86. Partition List
+## 86. Partition List
 题目大意：给一个链表和一个k，要求比k小的元素排在左边，大于等于k的排在右边，但排列时尽量保证原有的顺序。
 **思路**
 ``` javascript
@@ -424,7 +422,7 @@ var partition = function(head, x) {
 - 最后返回链表1+链表2
 
 
-### 443. String Compression ❌
+## 443. String Compression ❌
 题目大意：字符串压缩，例如aabbccc，压缩为a2b2c3的格式。
 **抄题解思路**
 ``` javascript
@@ -451,7 +449,7 @@ var compress = function(chars) {
 - 此题要求在原数组上操作，不能开辟额外的增长空间，看到这种在原链表、数组上操作的题目，应首先想到快慢指针
 - 此题定义快慢指针，快指针遍历重复元素，有重复则增加，慢指针用来记录元素和元素的个数，快指针遍历完全部元素则结束
 
-### 2161. Partition Array According to Given Pivot
+## 2161. Partition Array According to Given Pivot
 
 ``` javascript
 var pivotArray = function(nums, pivot) {
@@ -473,7 +471,7 @@ var pivotArray = function(nums, pivot) {
 - 这道题和leetcode[86]题思路类似，更简单一点，唯一要注意的是元素中等于pivot的元素
 - 所以要定义3个数组
 
-### 202. Happy Number ❌
+## 202. Happy Number ❌
 题目大意：判断一个数字是否是“快乐数字”，“快乐数字”的定义是，不断的把这个数字的每个数字的平方和加起来，反复的加，最终如果能有结果是 1，则是“快乐数字”，如果不能得到一，出现了循环，则输出 false。
 **最初思路**
 ``` javascript
