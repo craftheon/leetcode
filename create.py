@@ -103,11 +103,11 @@ def generate_doc(title_slug):
         file.write(
             f"""{question_info["title"]}
 ---
-## Problem
+### Problem
 {question_content}
-## Code
+### Code
 [✅ Javascript](./solution.js)
-## Solution"""
+### Solution"""
         )
         file.close()
         file2 = open(path + "/solution.js", "w")
