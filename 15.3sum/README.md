@@ -64,7 +64,7 @@ Notice that the order of the output and the order of the triplets does not matte
 [✅ Javascript](./solution.js)
 ### Solution
 题目含义：三数之和等于0，且不能重复。
-思路：
+解体思路：
 - 用对向双指针解题，首先要做排序，因为指针移动的条件依赖元素的加和：加和大于0 右指针左移动，小于0左指针右移。
 - 因为已经排过序了，所以如果nums[i] 已经大于0了，后面就不可能有符合条件的结果了，直接返回；
 - 去重：题目中要求不能有重复的三元组，所以三个元素都要进行去重判断：
