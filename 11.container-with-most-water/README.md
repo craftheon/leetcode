@@ -1,6 +1,6 @@
 Container With Most Water
 ---
-## Problem
+### Problem
 You are given an integer array `height` of length `n`. There are `n` vertical lines drawn such that the two endpoints of the `ith` line are `(i, 0)` and `(i, height[i])`.
 
 
@@ -50,9 +50,9 @@ Return *the maximum amount of water a container can store*.
 * `2 <= n <= 105`
 * `0 <= height[i] <= 104`
 
-## Code
+### Code
 [✅ Javascript](./solution.js)
-## Solution
+### Solution
 ``` javascript
 var maxArea = function(height) {
     var l = 0, r = height.length - 1
