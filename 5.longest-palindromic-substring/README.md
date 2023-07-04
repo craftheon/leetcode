@@ -1,2 +1,0 @@
-Longest palindromic substring
----

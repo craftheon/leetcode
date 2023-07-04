@@ -1,8 +1,7 @@
-Two Sum [zh-CN](./README_zh-CN.md)
+Two Sum
 ---
-
-### Problem
-Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*.
+## Problem
+Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*.
 
 
 You may assume that each input would have ***exactly* one solution**, and you may not use the *same* element twice.
@@ -11,7 +10,7 @@ You may assume that each input would have ***exactly* one solution**, and you ma
 You can return the answer in any order.
 
 
- 
+ 
 
 
 **Example 1:**
@@ -48,7 +47,7 @@ You can return the answer in any order.
 
 ```
 
- 
+ 
 
 
 **Constraints:**
@@ -60,13 +59,26 @@ You can return the answer in any order.
 * **Only one valid answer exists.**
 
 
- 
+ 
 
 
-**Follow-up:**Can you come up with an algorithm that is less than `O(n2)`time complexity?
-### Code
-[✅ Go](./solution.go) / [✅ Javascript](./solution.js) / [✅ Python](./solution.py)
+**Follow-up:**Can you come up with an algorithm that is less than `O(n2)`time complexity?
+## Code
+[✅ Javascript](./solution.js)
+## Solution 
 
-### Solution
+```javascript
+function twoSum(nums, target) {
+    const map = {}
+    for (const [index, num] of nums.entries()) {
+        if (map[target - num] !== undefined) {
+            return [map[target - num], index]
+        }
+        map[num] = index
+    }
+    return []
+}
+```
 
-
+- 用一个map存储target - num的结果，如果之前没有出现过，就先缓存起来
+- 后面的遍历过程中target - num的结果只要出现在map中，则说明条件符合，返回结果即可
