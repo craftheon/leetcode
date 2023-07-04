@@ -58,9 +58,10 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 ### Code
 [✅ Javascript](./solution.js)
 ### Solution
-- 双指针思路，注意进位和循环结束的条件；
+题目含义：
+解题思路：
+- 使用双指针，注意进位和循环结束的条件；
 - 循环结束时不仅l1和l2要遍历完，同时进位也必须要算完。
-
 
 ```javascript
 function addTwoNumbers(l1, l2) {
