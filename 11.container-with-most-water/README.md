@@ -53,6 +53,9 @@ Return *the maximum amount of water a container can store*.
 ### Code
 [✅ Javascript](./solution.js)
 ### Solution
+- 对向双指针，一次循环中：左边小 左指针右移，右边小 右指针左移，同时高度为最短的，宽度为右指针到左指针的距离。 
+- 所有结果中保留最大的
+
 ``` javascript
 var maxArea = function(height) {
     var l = 0, r = height.length - 1
@@ -72,5 +75,3 @@ var maxArea = function(height) {
     return res
 };
 ```
-- 对向双指针，一次循环中：左边小 左指针右移，右边小 右指针左移，同时高度为最短的，宽度为右指针到左指针的距离。 
-- 所有结果中保留最大的

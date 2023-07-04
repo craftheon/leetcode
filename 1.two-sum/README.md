@@ -66,6 +66,8 @@ You can return the answer in any order.
 ### Code
 [✅ Javascript](./solution.js)
 ### Solution 
+- 用一个map存储target - num的结果，如果之前没有出现过，就先缓存起来
+- 后面的遍历过程中target - num的结果只要出现在map中，则说明条件符合，返回结果即可
 
 ```javascript
 function twoSum(nums, target) {
@@ -79,6 +81,3 @@ function twoSum(nums, target) {
     return []
 }
 ```
-
-- 用一个map存储target - num的结果，如果之前没有出现过，就先缓存起来
-- 后面的遍历过程中target - num的结果只要出现在map中，则说明条件符合，返回结果即可
