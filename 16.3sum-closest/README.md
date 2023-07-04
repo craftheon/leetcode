@@ -55,7 +55,7 @@ You may assume that each input would have exactly one solution.
 解题思路：
 - 依次计算差值绝对值，保留绝对值最小的结果；
 - 指针移动条件：三数之和大于target 左指针移动、小于target右指针移动。
-- 绝对值的初始值：开始我设置的abs初始值是0，这会导致第一次判断`Math.abs(sum - target) < abs` 时被跳过，因为这里成立的条件永远是当前sun-target的绝对值要小于那个最小的，但最小的绝对值也不会小于0。
+- 绝对值的初始值：开始考虑设置abs初始值为0，但这会导致第一次判断`Math.abs(sum - target) < abs` 时被跳过，因为这里成立的条件永远是当前sun-target的绝对值要小于那个最小的，但最小的绝对值也不会小于0。
 - 去重：这道题中去不去重其实都可以，去重可以增加一些计算速度，但不去重也不会影响计算结果，最多是相同的结果被重复计算了一遍。
 
 ```javascript
