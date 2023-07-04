@@ -114,6 +114,17 @@ write solution here..
         )
         file.close()
         file2 = open(path + "/solution.js", "w")
+        file2.write(
+            """const assert = require('node:assert/strict')
+
+// write code here..
+
+(function () {
+    // test code here
+    console.log('Accepted!')
+})()
+"""
+        )
         file2.close()
         update_json(
             question_info["questionId"],
