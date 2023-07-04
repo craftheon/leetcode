@@ -107,7 +107,10 @@ def generate_doc(title_slug):
 {question_content}
 ### Code
 [✅ Javascript](./solution.js)
-### Solution"""
+### Solution
+write solution here..
+
+[Back to list](../README.md)"""
         )
         file.close()
         file2 = open(path + "/solution.js", "w")
