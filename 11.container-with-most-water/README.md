@@ -76,4 +76,4 @@ var maxArea = function(height) {
 };
 ```
 
-[Home](../README.md)
+[Back to list](../README.md)
