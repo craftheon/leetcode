@@ -112,6 +112,11 @@ def generate_doc(title_slug):
 题目含义：
 
 解题思路：
+- 
+
+```javascript
+
+```
 
 [Back to list](../README.md)"""
         )
@@ -146,7 +151,8 @@ def update_json(id, slug, title, difficute):
         readme = json.loads(s)
         dics = readme["dir"]
         dics.append({"id": id, "slug": slug, "title": title, "difficute": difficute})
-        readme["dir"] = dics
+        sd = sorted(dics, key=lambda k: int(k["id"]))
+        readme["dir"] = sd
         text = readme
     with open("README.json", "w") as r:
         json.dump(text, r)
