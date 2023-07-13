@@ -59,13 +59,22 @@ Given an integer `x`, return `true` *if* `x` *is a* ***palindrome****, and* `fal
 ### Code
 [✅ Javascript](./solution.js)
 ### Solution
-题目含义：
+题目含义：判断数字是否是回文数
 
 解题思路：
-- 
+- 最简单的双指针应用
 
 ```javascript
-
+var isPalindrome = function(x) {
+    x = x.toString()
+    let l = 0, r = x.length - 1
+    while(l <= r) {
+        if (x[l] !== x[r]) return false
+        l ++
+        r --
+    }
+    return true
+};
 ```
 
 [Back to list](../README.md)
