@@ -167,7 +167,7 @@ def update_readme():
         s = f.read()
         readme = json.loads(s)
         dics = readme["dir"]
-        ds = "| # | Title | Solution | Difficulty |\n|---| ----- | -------- | ---------- |\n"
+        ds = f"| # | Title({len(dics)}) | Solution | Difficulty |\n|---| ----- | -------- | ---------- |\n"
         for dic in dics:
             ds += f"|{dic['id']}|[{dic['title']}](https://leetcode.com/problems/{dic['slug']}/)|[Solution](./{dic['id']}.{dic['slug']})|{dic['difficute']}| \n"
         text = ds
