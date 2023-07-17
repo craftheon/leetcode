@@ -60,7 +60,7 @@ Given a string `s`, return `true` *if the* `s` *can be palindrome after deleting
 
 ```javascript
 var validPalindrome = function(s) {
-    function isPolindrom(l,r){
+    function isPalindrome(l,r){
         while(l<r) {
             if(s[l++]!==s[r--]) {
                 return false
@@ -72,7 +72,9 @@ var validPalindrome = function(s) {
     let l = 0, r = s.length - 1
 
     while(l<r){
-        if(s[l]!== s[r]) return isPolindrom(l+1,r) || isPolindrom(l,r-1)
+        if(s[l]!== s[r]) {
+          return isPalindrome(l+1,r) || isPalindrome(l,r-1)
+        }
         l++;
         r--;
     }
