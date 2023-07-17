@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| # | Title(26) | Solution | Difficulty |
+| # | Title(27) | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -33,5 +33,6 @@ All the codes are runnable, you can directly run these codes to view the results
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Solution](./226.invert-binary-tree)|Easy| 
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[Solution](./443.string-compression)|Medium| 
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Solution](./653.two-sum-iv-input-is-a-bst)|Easy| 
+|680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Solution](./680.valid-palindrome-ii)|Easy| 
 |2265|[Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)|[Solution](./2265.partition-array-according-to-given-pivot)|Medium| 
  
