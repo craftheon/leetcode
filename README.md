@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(29) | Title | Solution | Difficulty |
+| #(32) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -34,7 +34,10 @@ All the codes are runnable, you can directly run these codes to view the results
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Solution](./222.count-complete-tree-nodes)|Medium| 
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Solution](./226.invert-binary-tree)|Easy| 
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[Solution](./443.string-compression)|Medium| 
+|563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Solution](./563.binary-tree-tilt)|Easy| 
+|623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Solution](./623.add-one-row-to-tree)|Medium| 
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Solution](./653.two-sum-iv-input-is-a-bst)|Easy| 
+|655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[Solution](./655.print-binary-tree)|Medium| 
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Solution](./680.valid-palindrome-ii)|Easy| 
 |2265|[Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)|[Solution](./2265.partition-array-according-to-given-pivot)|Medium| 
  
