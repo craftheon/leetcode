@@ -60,13 +60,25 @@ You may assume that you have an infinite number of each kind of coin.
 ### Code
 [✅ Javascript](./solution.js)
 ### Solution
-题目含义：
+题目含义：凑零钱，用最少的金币组合凑出目标值
 
 解题思路：
-- 
+- 动态规划解题：`dp[amount] = min(dp[amount], dp[amount - coin] + 1), dp[0] = 0`；
+- amount - coin 需要大于0；
 
 ```javascript
-
+var coinChange = function (coins, amount) {
+    const dp = new Array(amount + 1).fill(Infinity)
+    dp[0] = 0
+    for (let i = 1; i <= amount; i++) {
+        for (coin of coins) {
+            if (i - coin >= 0) {
+                dp[i] = Math.min(dp[i], dp[i - coin] + 1)
+            }
+        }
+    }
+    return dp[amount] === Infinity ? -1 : dp[amount]
+};
 ```
 
 [Back to list](../README.md)
