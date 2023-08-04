@@ -1,12 +1,14 @@
+// 递归实现
 function flatten(value) {
-  if (typeof value !== 'object') {
-    return []
+  let res = []
+  for (let i = 0; i < value.length; i++) {
+    if (Array.isArray(value[i])) {
+      res = res.concat(flatten(value[i]))
+    } else {
+      res.push(value[i])
+    }
   }
-  Object.keys(value).forEach(e => {
-    const c = flatten(value[e])
-    c[e] = value[e]
-    console.log(c, value[e])
-  })
+  return res
 }
 
 console.log(flatten([1, 2, [3, 4, [5, [6]]]]))
