@@ -86,7 +86,12 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 - 此题目可以定义一个快慢指针，其中快指针从头到尾遍历数组，当慢指针指向倒数第二个数与快指针指向的数不相等时，移动慢指针，同时赋值慢指针
 - 原地删除数组元素的题目可以使用快慢指针
 
+
+- 也可以考虑另一种解法：
+- 用map记录出现的次数，超过2次的直接remove掉。
+
 ```javascript
+// 解法1
 var removeDuplicates = function(nums) {
     let slow = 0
     for(let fast = 0; fast < nums.length; fast ++) {
@@ -96,6 +101,23 @@ var removeDuplicates = function(nums) {
         }
     }
     return slow
+};
+
+// 解法2
+var removeDuplicates = function(nums) {
+    const cache = new Map()
+    for(let i = 0; i < nums.length; i ++) {
+        let cur = nums[i], cc = cache.get(cur)
+        if (cur === null) break
+        if (cc && cc === 2) {
+            i --
+            nums.splice(i, 1)
+        } else if (cc && cc < 2) {
+            cache.set(cur, cc + 1)
+        } else {
+            cache.set(cur, 1)
+        }
+    }
 };
 ```
 
