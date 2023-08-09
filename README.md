@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(40) | Title | Solution | Difficulty |
+| #(41) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -33,6 +33,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Solution](./144.binary-tree-preorder-traversal)|Easy| 
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Solution](./165.compare-version-numbers)|Medium| 
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Solution](./189.rotate-array)|Medium| 
+|199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Solution](./199.binary-tree-right-side-view)|Medium| 
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[Solution](./202.happy-number)|Easy| 
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Solution](./222.count-complete-tree-nodes)|Medium| 
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Solution](./226.invert-binary-tree)|Easy| 
