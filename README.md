@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(42) | Title | Solution | Difficulty |
+| #(43) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -37,6 +37,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[Solution](./202.happy-number)|Easy| 
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Solution](./222.count-complete-tree-nodes)|Medium| 
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Solution](./226.invert-binary-tree)|Easy| 
+|236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Solution](./236.lowest-common-ancestor-of-a-binary-tree)|Medium| 
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Solution](./300.longest-increasing-subsequence)|Medium| 
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Solution](./303.range-sum-query-immutable)|Easy| 
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)|[Solution](./322.coin-change)|Medium| 
