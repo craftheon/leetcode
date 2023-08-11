@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(43) | Title | Solution | Difficulty |
+| #(44) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -25,6 +25,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|[Solution](./95.unique-binary-search-trees-ii)|Medium| 
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Solution](./98.validate-binary-search-tree)|Medium| 
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Solution](./101.symmetric-tree)|Easy| 
+|103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Solution](./103.binary-tree-zigzag-level-order-traversal)|Medium| 
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Solution](./104.maximum-depth-of-binary-tree)|Easy| 
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Solution](./107.binary-tree-level-order-traversal-ii)|Medium| 
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Solution](./114.flatten-binary-tree-to-linked-list)|Medium| 
