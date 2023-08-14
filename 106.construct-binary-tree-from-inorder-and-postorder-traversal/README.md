@@ -54,16 +54,16 @@ Given two integer arrays `inorder` and `postorder` where `inorder` is the inorde
 
 ```javascript
 var buildTree = function(inorder, postorder) {
-    function build(arr) {
-        if(!arr.length) return null;
-        const val = postorder.pop();
-        const idx = arr.indexOf(val);
-        const node = new TreeNode(val);
-        node.right = build(arr.slice(idx+1));
-        node.left = build(arr.slice(0, idx));
-        return node;
-    }
-    return build(inorder);
+  function build(arr) {
+    if(!arr.length) return null;
+    const val = postorder.pop();
+    const idx = arr.indexOf(val);
+    const node = new TreeNode(val);
+    node.right = build(arr.slice(idx+1));
+    node.left = build(arr.slice(0, idx));
+    return node;
+  }
+  return build(inorder);
 };
 ```
 
