@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(44) | Title | Solution | Difficulty |
+| #(45) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -44,6 +44,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)|[Solution](./322.coin-change)|Medium| 
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[Solution](./443.string-compression)|Medium| 
 |523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|[Solution](./523.continuous-subarray-sum)|Medium| 
+|530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Solution](./530.minimum-absolute-difference-in-bst)|Easy| 
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Solution](./563.binary-tree-tilt)|Easy| 
 |623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Solution](./623.add-one-row-to-tree)|Medium| 
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Solution](./637.average-of-levels-in-binary-tree)|Easy| 
