@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(47) | Title | Solution | Difficulty |
+| #(48) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -51,6 +51,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Solution](./623.add-one-row-to-tree)|Medium| 
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Solution](./637.average-of-levels-in-binary-tree)|Easy| 
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Solution](./653.two-sum-iv-input-is-a-bst)|Easy| 
+|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[Solution](./654.maximum-binary-tree)|Medium| 
 |655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[Solution](./655.print-binary-tree)|Medium| 
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Solution](./680.valid-palindrome-ii)|Easy| 
 |1693|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Solution](./1693.sum-of-all-odd-length-subarrays)|Easy| 
