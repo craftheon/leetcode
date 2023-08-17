@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(50) | Title | Solution | Difficulty |
+| #(51) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -35,6 +35,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](./125.valid-palindrome)|Easy| 
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Solution](./144.binary-tree-preorder-traversal)|Easy| 
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Solution](./165.compare-version-numbers)|Medium| 
+|167|[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Solution](./167.two-sum-ii-input-array-is-sorted)|Medium| 
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Solution](./189.rotate-array)|Medium| 
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Solution](./199.binary-tree-right-side-view)|Medium| 
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[Solution](./202.happy-number)|Easy| 
