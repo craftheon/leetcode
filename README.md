@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(48) | Title | Solution | Difficulty |
+| #(49) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -32,6 +32,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Solution](./114.flatten-binary-tree-to-linked-list)|Medium| 
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Solution](./116.populating-next-right-pointers-in-each-node)|Medium| 
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Solution](./121.best-time-to-buy-and-sell-stock)|Easy| 
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](./125.valid-palindrome)|Easy| 
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Solution](./144.binary-tree-preorder-traversal)|Easy| 
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Solution](./165.compare-version-numbers)|Medium| 
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Solution](./189.rotate-array)|Medium| 
