@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(49) | Title | Solution | Difficulty |
+| #(50) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -45,6 +45,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Solution](./300.longest-increasing-subsequence)|Medium| 
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Solution](./303.range-sum-query-immutable)|Easy| 
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)|[Solution](./322.coin-change)|Medium| 
+|392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Solution](./392.is-subsequence)|Easy| 
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[Solution](./443.string-compression)|Medium| 
 |523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|[Solution](./523.continuous-subarray-sum)|Medium| 
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Solution](./530.minimum-absolute-difference-in-bst)|Easy| 
