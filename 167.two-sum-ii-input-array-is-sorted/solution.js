@@ -1,8 +1,8 @@
 const assert = require('node:assert/strict')
 
-// write code here..
+    // write code here..
 
-(function () {
-    // test code here
-    console.log('Accepted!')
-})()
+    (function () {
+        // test code here
+        console.log('Accepted!')
+    })()

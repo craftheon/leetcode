@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(51) | Title | Solution | Difficulty |
+| #(52) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -39,6 +39,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Solution](./189.rotate-array)|Medium| 
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Solution](./199.binary-tree-right-side-view)|Medium| 
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[Solution](./202.happy-number)|Easy| 
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Solution](./205.isomorphic-strings)|Easy| 
 |222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Solution](./222.count-complete-tree-nodes)|Medium| 
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Solution](./226.invert-binary-tree)|Easy| 
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Solution](./230.kth-smallest-element-in-a-bst)|Medium| 
