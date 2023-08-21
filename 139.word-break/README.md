@@ -61,13 +61,25 @@ Note that you are allowed to reuse a dictionary word.
 ### Code
 [✅ Javascript](./solution.js)
 ### Solution
-题目含义：
+题目含义：判断字符串是否能用字典中给到的单词组成
 
 解题思路：
-- 
+- 动态规划解题，`dp[s[i 到 j]] = true`，则`dp[n]`及為true。
 
 ```javascript
-
+var wordBreak = function (s, wordDict) {
+    let n = s.length, dp = new Array(n + 1).fill(false), words = new Set(wordDict)
+    dp[0] = true
+    for (let i = 1; i <= n; i++) {
+        for (let j = 0; j < i; j++) {
+            if (dp[j] && words.has(s.substring(j, i))) {
+                dp[i] = true
+                break
+            }
+        }
+    }
+    return dp[n]
+};
 ```
 
 [Back to list](../README.md)
