@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(55) | Title | Solution | Difficulty |
+| #(56) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -31,6 +31,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Solution](./107.binary-tree-level-order-traversal-ii)|Medium| 
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Solution](./114.flatten-binary-tree-to-linked-list)|Medium| 
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Solution](./116.populating-next-right-pointers-in-each-node)|Medium| 
+|120|[Triangle](https://leetcode.com/problems/triangle/)|[Solution](./120.triangle)|Medium| 
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Solution](./121.best-time-to-buy-and-sell-stock)|Easy| 
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](./125.valid-palindrome)|Easy| 
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Solution](./139.word-break)|Medium| 
