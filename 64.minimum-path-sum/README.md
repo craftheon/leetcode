@@ -48,13 +48,31 @@ Given a `m x n` `grid` filled with non-negative numbers, find a path from top le
 ### Code
 [✅ Javascript](./solution.js)
 ### Solution
-题目含义：
+题目含义：计算二维矩阵从左上角到右下角的最短路径和
 
 解题思路：
-- 
+- 这题和63题思路基本一致，动态规划解题，状态方程为：`dp[i][j] = Math.min(dp[i - 1][j] + grid[i][j], dp[i][j - 1] + grid[i][j])`；
+- 二维DP的一个要点：边界条件除了`dp[0][0]`外，还有`dp[i][0]`和`dp[0][j]`同样要处理，处理完后从`i = 1; j = 1`处遍历即可
 
 ```javascript
-
+var minPathSum = function(grid) {
+    let m = grid.length,
+        n = grid[0].length,
+        dp = new Array(m).fill(0).map(() => new Array(n).fill(0))
+    dp[0][0] = grid[0][0]
+    for(let i = 1; i < m; i ++) {
+        dp[i][0] = dp[i - 1][0] + grid[i][0]
+    }
+    for(let j = 1; j < n; j ++) {
+        dp[0][j] = dp[0][j - 1] + grid[0][j]
+    }
+    for(let i = 1; i < m; i ++) {
+        for(let j = 1; j < n; j ++) {
+            dp[i][j] = Math.min(dp[i - 1][j] + grid[i][j], dp[i][j - 1] + grid[i][j])
+        }
+    }
+    return dp[m - 1][n - 1]
+};
 ```
 
 [Back to list](../README.md)
