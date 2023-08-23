@@ -46,8 +46,8 @@ Given a string `s`, return *the longest* *palindromic* *substring* in `s`.
 
 解题思路：
 - 这题解法很多，比较经典的还是用动态规划，但动态规划比较难理解，其实简单解法多的是，例如下面这样：
-  - 两个for循环是免不了的，此外直接从前后分别添加字符串，只要每一位都一样，则就是回文的。
-  - 为了性能，可以把长度计算保存一下，不用每次算，但其实差不了多少。
+  - 两个for循环，直接从前后分别添加字符串，只要每一位都一样，则就是回文的。
+  - 为了性能，可以把长度计算保存一下。
 
 ```javascript
 var longestPalindrome = function(s) {
