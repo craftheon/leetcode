@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(59) | Title | Solution | Difficulty |
+| #(60) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -32,6 +32,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Solution](./104.maximum-depth-of-binary-tree)|Easy| 
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Solution](./106.construct-binary-tree-from-inorder-and-postorder-traversal)|Medium| 
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Solution](./107.binary-tree-level-order-traversal-ii)|Medium| 
+|112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Solution](./112.path-sum)|Easy| 
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Solution](./114.flatten-binary-tree-to-linked-list)|Medium| 
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Solution](./116.populating-next-right-pointers-in-each-node)|Medium| 
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[Solution](./120.triangle)|Medium| 
