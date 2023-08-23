@@ -6,10 +6,11 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(57) | Title | Solution | Difficulty |
+| #(59) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Solution](./5.longest-palindromic-substring)|Medium| 
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Solution](./9.palindrome-number)|Easy| 
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Solution](./11.container-with-most-water)|Medium| 
 |15|[3Sum](https://leetcode.com/problems/3sum/)|[Solution](./15.3sum)|Medium| 
@@ -20,6 +21,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Solution](./42.trapping-rain-water)|Hard| 
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Solution](./55.jump-game)|Medium| 
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/)|[Solution](./61.rotate-list)|Medium| 
+|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Solution](./63.unique-paths-ii)|Medium| 
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Solution](./64.minimum-path-sum)|Medium| 
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Solution](./80.remove-duplicates-from-sorted-array-ii)|Medium| 
 |86|[Partition List](https://leetcode.com/problems/partition-list/)|[Solution](./86.partition-list)|Medium| 
