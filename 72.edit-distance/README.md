@@ -62,7 +62,8 @@ exection -> execution (insert 'u')
 题目含义：计算最短编辑距离
 
 解题思路：
-- 二维DP解题，`dp[i][j] = min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + (word1[i - 1] !== word2[j - 1] ? 1 : 0))`
+- 二维DP解题，`dp[i][j] = min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + (word1[i - 1] !== word2[j - 1] ? 1 : 0))`,
+- 处理上侧和左侧的边界条件
 
 ```javascript
 var minDistance = function (word1, word2) {
