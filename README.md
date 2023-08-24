@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(60) | Title | Solution | Difficulty |
+| #(61) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -23,6 +23,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/)|[Solution](./61.rotate-list)|Medium| 
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Solution](./63.unique-paths-ii)|Medium| 
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Solution](./64.minimum-path-sum)|Medium| 
+|72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[Solution](./72.edit-distance)|Medium| 
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Solution](./80.remove-duplicates-from-sorted-array-ii)|Medium| 
 |86|[Partition List](https://leetcode.com/problems/partition-list/)|[Solution](./86.partition-list)|Medium| 
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|[Solution](./95.unique-binary-search-trees-ii)|Medium| 
