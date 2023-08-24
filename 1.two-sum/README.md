@@ -64,7 +64,10 @@ You can return the answer in any order.
 
 **Follow-up:**Can you come up with an algorithm that is less than `O(n2)`time complexity?
 ### Code
-[✅ Javascript](./solution.js)
+[✅ Javascript](./solution.js) 
+[✅ Go](./solution.go)
+[✅ Python](./solution.py)
+
 ### Solution 
 题目含义：
 
