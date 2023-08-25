@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func twoSum(nums []int, target int) []int{
 	hash := map[int]int{}
 	for k, v := range nums {
@@ -13,5 +15,6 @@ func twoSum(nums []int, target int) []int{
 
 
 func main() {
-	twoSum([]int{3, 2, 1, 4}, 9)
+	res := twoSum([]int{3, 2, 1, 4}, 9)
+	fmt.Println(res)
 }
