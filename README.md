@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(62) | Title | Solution | Difficulty |
+| #(63) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -19,6 +19,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Solution](./19.remove-nth-node-from-end-of-list)|Medium| 
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Solution](./27.remove-element)|Easy| 
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Solution](./42.trapping-rain-water)|Hard| 
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Solution](./53.maximum-subarray)|Medium| 
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Solution](./55.jump-game)|Medium| 
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/)|[Solution](./61.rotate-list)|Medium| 
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Solution](./63.unique-paths-ii)|Medium| 
