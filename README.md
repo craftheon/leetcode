@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(63) | Title | Solution | Difficulty |
+| #(64) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -37,6 +37,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Solution](./112.path-sum)|Easy| 
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Solution](./114.flatten-binary-tree-to-linked-list)|Medium| 
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Solution](./116.populating-next-right-pointers-in-each-node)|Medium| 
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Solution](./118.pascals-triangle)|Easy| 
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[Solution](./120.triangle)|Medium| 
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Solution](./121.best-time-to-buy-and-sell-stock)|Easy| 
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](./125.valid-palindrome)|Easy| 
