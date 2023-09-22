@@ -100,7 +100,7 @@ var romanToInt = function (s) {
         M: 1000,
     };
     const integers = s.split('').map(c => roman[c]);
-    return s.split('').map(c => roman[c]).reduce((acc, x, i) => x < integers[i + 1] ? acc - x : acc + x, 0);
+    return integers.reduce((acc, x, i) => x < integers[i + 1] ? acc - x : acc + x, 0);
 };
 
 ```
