@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(71) | Title | Solution | Difficulty |
+| #(73) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -48,6 +48,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](./125.valid-palindrome)|Easy| 
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Solution](./139.word-break)|Medium| 
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Solution](./144.binary-tree-preorder-traversal)|Easy| 
+|151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Solution](./151.reverse-words-in-a-string)|Medium| 
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Solution](./165.compare-version-numbers)|Medium| 
 |167|[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Solution](./167.two-sum-ii-input-array-is-sorted)|Medium| 
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Solution](./189.rotate-array)|Medium| 
@@ -64,6 +65,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Solution](./300.longest-increasing-subsequence)|Medium| 
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Solution](./303.range-sum-query-immutable)|Easy| 
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)|[Solution](./322.coin-change)|Medium| 
+|334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[Solution](./334.increasing-triplet-subsequence)|Medium| 
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Solution](./392.is-subsequence)|Easy| 
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[Solution](./443.string-compression)|Medium| 
 |523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|[Solution](./523.continuous-subarray-sum)|Medium| 
