@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(77) | Title | Solution | Difficulty |
+| #(78) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -27,6 +27,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Solution](./55.jump-game)|Medium| 
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Solution](./58.length-of-last-word)|Easy| 
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/)|[Solution](./61.rotate-list)|Medium| 
+|62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Solution](./62.unique-paths)|Medium| 
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Solution](./63.unique-paths-ii)|Medium| 
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Solution](./64.minimum-path-sum)|Medium| 
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[Solution](./72.edit-distance)|Medium| 
