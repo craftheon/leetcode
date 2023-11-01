@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(78) | Title | Solution | Difficulty |
+| #(79) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -84,6 +84,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |1392|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|[Solution](./1392.find-the-difference-of-two-arrays)|Easy| 
 |1567|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[Solution](./1567.maximum-number-of-vowels-in-a-substring-of-given-length)|Medium| 
 |1693|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Solution](./1693.sum-of-all-odd-length-subarrays)|Easy| 
+|1798|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|[Solution](./1798.max-number-of-k-sum-pairs)|Medium| 
 |1894|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Solution](./1894.merge-strings-alternately)|Easy| 
 |2265|[Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)|[Solution](./2265.partition-array-according-to-given-pivot)|Medium| 
  
