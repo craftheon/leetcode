@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(79) | Title | Solution | Difficulty |
+| #(80) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -80,6 +80,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[Solution](./654.maximum-binary-tree)|Medium| 
 |655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[Solution](./655.print-binary-tree)|Medium| 
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Solution](./680.valid-palindrome-ii)|Easy| 
+|1046|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Solution](./1046.max-consecutive-ones-iii)|Medium| 
 |1146|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[Solution](./1146.greatest-common-divisor-of-strings)|Easy| 
 |1392|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|[Solution](./1392.find-the-difference-of-two-arrays)|Easy| 
 |1567|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[Solution](./1567.maximum-number-of-vowels-in-a-substring-of-given-length)|Medium| 
