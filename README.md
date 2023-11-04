@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(61) | Title | Solution | Difficulty |
+| #(62) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -67,6 +67,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[Solution](./654.maximum-binary-tree)|Medium| 
 |655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[Solution](./655.print-binary-tree)|Medium| 
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Solution](./680.valid-palindrome-ii)|Easy| 
+|1474|[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|[Solution](./1474.longest-zigzag-path-in-a-binary-tree)|Medium| 
 |1693|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Solution](./1693.sum-of-all-odd-length-subarrays)|Easy| 
 |2265|[Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)|[Solution](./2265.partition-array-according-to-given-pivot)|Medium| 
  
