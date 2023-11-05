@@ -40,5 +40,33 @@ function buildTree(preorder, inorder) {
   return build(inorder)
 }
 
+const tree = new TreeNode(
+  10,
+  new TreeNode(
+    5,
+    new TreeNode(
+      3,
+      new TreeNode(3),
+      new TreeNode(-2)
+    ),
+    new TreeNode(
+      2,
+      null,
+      new TreeNode(1)
+    )
+  ),
+  new TreeNode(
+    -3,
+    null,
+    new TreeNode(11)
+  )
+)
 
-console.log(JSON.stringify(buildTree([3, 1, 2, 4, 5, 7], [2, 1, 4, 3, 7, 5])))
+function dfs(node) {
+  if (!node) return null
+  console.log('front', node.val)
+  dfs(node.left)
+  console.log('min', node.val)
+  dfs(node.right)
+}
+dfs(tree)
