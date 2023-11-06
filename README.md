@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(85) | Title | Solution | Difficulty |
+| #(86) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -69,6 +69,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)|[Solution](./322.coin-change)|Medium| 
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[Solution](./334.increasing-triplet-subsequence)|Medium| 
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Solution](./345.reverse-vowels-of-a-string)|Easy| 
+|374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Solution](./374.guess-number-higher-or-lower)|Easy| 
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Solution](./392.is-subsequence)|Easy| 
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Solution](./437.path-sum-iii)|Medium| 
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[Solution](./443.string-compression)|Medium| 
