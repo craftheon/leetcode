@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(88) | Title | Solution | Difficulty |
+| #(89) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -18,6 +18,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Solution](./11.container-with-most-water)|Medium| 
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Solution](./12.integer-to-roman)|Medium| 
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](./13.roman-to-integer)|Easy| 
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Solution](./14.longest-common-prefix)|Easy| 
 |15|[3Sum](https://leetcode.com/problems/3sum/)|[Solution](./15.3sum)|Medium| 
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Solution](./16.3sum-closest)|Medium| 
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Solution](./17.letter-combinations-of-a-phone-number)|Medium| 
