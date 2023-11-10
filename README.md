@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(89) | Title | Solution | Difficulty |
+| #(90) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -51,6 +51,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](./125.valid-palindrome)|Easy| 
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Solution](./139.word-break)|Medium| 
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Solution](./144.binary-tree-preorder-traversal)|Easy| 
+|146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[Solution](./146.lru-cache)|Medium| 
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Solution](./151.reverse-words-in-a-string)|Medium| 
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Solution](./165.compare-version-numbers)|Medium| 
 |167|[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Solution](./167.two-sum-ii-input-array-is-sorted)|Medium| 
