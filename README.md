@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(91) | Title | Solution | Difficulty |
+| #(92) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -23,6 +23,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Solution](./16.3sum-closest)|Medium| 
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Solution](./17.letter-combinations-of-a-phone-number)|Medium| 
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Solution](./19.remove-nth-node-from-end-of-list)|Medium| 
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Solution](./22.generate-parentheses)|Medium| 
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Solution](./27.remove-element)|Easy| 
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Solution](./42.trapping-rain-water)|Hard| 
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Solution](./45.jump-game-ii)|Medium| 
