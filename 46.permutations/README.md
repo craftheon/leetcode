@@ -61,7 +61,7 @@ var permute = function (nums) {
         ans.push([...path])
       }
       for (const n of nums) {
-        if (path.includes(n)) {
+        if (path.includes(n)) { // 剪枝
             continue
         }
         path.push(n);
