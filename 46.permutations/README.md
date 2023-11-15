@@ -60,7 +60,6 @@ var permute = function (nums) {
       if (path.length === nums.length) {
         ans.push([...path])
       }
-
       for (const n of nums) {
         if (path.includes(n)) {
             continue
