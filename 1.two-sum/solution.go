@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func twoSum(nums []int, target int) []int{
-	hash := map[int]int{}
-	for k, v := range nums {
-		hash[v] = k
-		if c, ok := hash[target - v]; ok {
-      return []int{c, k}
-    }
+func twoSum(nums []int, target int) []int {
+	cache := map[int]int{}
+	for index, num := range nums {
+		if value, ok := cache[target - num]; ok {
+			return []int{value, index}
+		}
+		cache[num] = index
 	}
 	return []int{}
 }

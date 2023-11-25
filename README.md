@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(90) | Title | Solution | Difficulty |
+| #(95) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -23,8 +23,12 @@ All the codes are runnable, you can directly run these codes to view the results
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Solution](./16.3sum-closest)|Medium| 
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Solution](./17.letter-combinations-of-a-phone-number)|Medium| 
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Solution](./19.remove-nth-node-from-end-of-list)|Medium| 
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Solution](./22.generate-parentheses)|Medium| 
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Solution](./27.remove-element)|Easy| 
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Solution](./42.trapping-rain-water)|Hard| 
+|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Solution](./45.jump-game-ii)|Medium| 
+|46|[Permutations](https://leetcode.com/problems/permutations/)|[Solution](./46.permutations)|Medium| 
+|51|[N-Queens](https://leetcode.com/problems/n-queens/)|[Solution](./51.n-queens)|Hard| 
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Solution](./53.maximum-subarray)|Medium| 
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Solution](./55.jump-game)|Medium| 
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Solution](./58.length-of-last-word)|Easy| 
@@ -34,6 +38,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Solution](./64.minimum-path-sum)|Medium| 
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[Solution](./72.edit-distance)|Medium| 
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Solution](./80.remove-duplicates-from-sorted-array-ii)|Medium| 
+|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Solution](./83.remove-duplicates-from-sorted-list)|Easy| 
 |86|[Partition List](https://leetcode.com/problems/partition-list/)|[Solution](./86.partition-list)|Medium| 
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|[Solution](./95.unique-binary-search-trees-ii)|Medium| 
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Solution](./98.validate-binary-search-tree)|Medium| 
@@ -51,6 +56,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](./125.valid-palindrome)|Easy| 
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[Solution](./139.word-break)|Medium| 
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Solution](./144.binary-tree-preorder-traversal)|Easy| 
+|146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[Solution](./146.lru-cache)|Medium| 
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Solution](./151.reverse-words-in-a-string)|Medium| 
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Solution](./165.compare-version-numbers)|Medium| 
 |167|[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Solution](./167.two-sum-ii-input-array-is-sorted)|Medium| 
@@ -86,7 +92,6 @@ All the codes are runnable, you can directly run these codes to view the results
 |655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[Solution](./655.print-binary-tree)|Medium| 
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Solution](./680.valid-palindrome-ii)|Easy| 
 |904|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[Solution](./904.leaf-similar-trees)|Easy| 
-|967|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[Solution](./967.minimum-falling-path-sum)|Medium| 
 |1046|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Solution](./1046.max-consecutive-ones-iii)|Medium| 
 |1146|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[Solution](./1146.greatest-common-divisor-of-strings)|Easy| 
 |1236|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[Solution](./1236.n-th-tribonacci-number)|Easy| 
