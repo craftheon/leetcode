@@ -52,7 +52,7 @@ A **falling path** starts at any element in the first row and chooses the elemen
 题目含义：矩阵中下降路径和的最小值
 
 解题思路：
-- 仍然dp思路，和192题有点像，不过矩阵中，从上到下计算即可
+- 仍然dp思路，需要注意边界问题
 
 ```javascript
 var minFallingPathSum = function(matrix) {
