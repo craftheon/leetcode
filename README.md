@@ -6,10 +6,11 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(96) | Title | Solution | Difficulty |
+| #(97) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
+|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Solution](./3.longest-substring-without-repeating-characters)|Medium| 
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Solution](./4.median-of-two-sorted-arrays)|Hard| 
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Solution](./5.longest-palindromic-substring)|Medium| 
 |6|[Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[Solution](./6.zigzag-conversion)|Medium| 
