@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(100) | Title | Solution | Difficulty |
+| #(101) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -30,6 +30,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Solution](./42.trapping-rain-water)|Hard| 
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Solution](./45.jump-game-ii)|Medium| 
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Solution](./46.permutations)|Medium| 
+|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Solution](./48.rotate-image)|Medium| 
 |51|[N-Queens](https://leetcode.com/problems/n-queens/)|[Solution](./51.n-queens)|Hard| 
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Solution](./53.maximum-subarray)|Medium| 
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Solution](./55.jump-game)|Medium| 
