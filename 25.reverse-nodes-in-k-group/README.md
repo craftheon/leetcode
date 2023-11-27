@@ -60,9 +60,11 @@ You may not alter the values in the list's nodes, only nodes themselves may be c
 题目含义：k个一组反转链表
 
 解题思路：
-- 
+- 解法1，递归
+- 解法2，快慢指针：快指针与慢指针相隔的区间做链表反转，其他节点按原顺序相连
 
 ```javascript
+// 解法1
 var reverseKGroup = function(head, k) {
     var reverse = function(a, b) {
         let pre, cur, nxt;
@@ -88,6 +90,44 @@ var reverseKGroup = function(head, k) {
 
     return newHead;
 };
+
+
+// 解法2
+var reverseKGroup = function (head, k) {
+    let i = 0,
+        slow = head,
+        fast = slow,
+        newHead = new ListNode(null),
+        np = newHead
+    while (fast) {
+        i++
+        fast = fast.next
+        if (i === k) {
+            let tmp = reverse(slow, fast)
+            np.next = tmp
+            while (tmp.next) {
+                tmp = tmp.next
+            }
+            np = tmp
+            i = 0
+            slow = fast
+        }
+    }
+    np.next = slow
+    return newHead.next
+};
+
+function reverse(link, area) {
+    let p = link,
+        pre = null
+    while (p !== area) {
+        const tmp = p.next
+        p.next = pre
+        pre = p
+        p = tmp
+    }
+    return pre
+}
 ```
 
 [Back to list](../README.md)
