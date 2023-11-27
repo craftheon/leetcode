@@ -66,18 +66,6 @@ You may not alter the values in the list's nodes, only nodes themselves may be c
 ```javascript
 // 解法1
 var reverseKGroup = function(head, k) {
-    var reverse = function(a, b) {
-        let pre, cur, nxt;
-        pre = null; cur = a; nxt = a;
-        while (cur !== b) {
-            nxt = cur.next;
-            cur.next = pre;
-            pre = cur;
-            cur = nxt;
-        }
-        return pre;
-    };
-
     if (head === null) return null;
     let a, b;
     a = b = head;
@@ -91,6 +79,17 @@ var reverseKGroup = function(head, k) {
     return newHead;
 };
 
+function reverse(link, area) {
+    let p = link,
+        pre = null
+    while (p !== area) {
+        const tmp = p.next
+        p.next = pre
+        pre = p
+        p = tmp
+    }
+    return pre
+}
 
 // 解法2
 var reverseKGroup = function (head, k) {
