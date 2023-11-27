@@ -94,26 +94,25 @@ var reverseKGroup = function(head, k) {
 
 // 解法2
 var reverseKGroup = function (head, k) {
-    let i = 0,
-        slow = head,
-        fast = slow,
-        newHead = new ListNode(null),
-        np = newHead
-    while (fast) {
-        i++
-        fast = fast.next
-        if (i === k) {
-            let tmp = reverse(slow, fast)
-            np.next = tmp
-            while (tmp.next) {
-                tmp = tmp.next
-            }
-            np = tmp
-            i = 0
-            slow = fast
+    let idx = 0,
+    last = head,
+    newHead = new ListNode(null),
+    np = newHead
+    while (head) {
+        idx ++
+        head = head.next
+        if (idx === k) {
+        let tmp = reverse(last, head)
+        np.next = tmp
+        while (tmp.next) {
+            tmp = tmp.next
+        }
+        np = tmp
+        idx = 0
+        last = head
         }
     }
-    np.next = slow
+    np.next = last
     return newHead.next
 };
 
