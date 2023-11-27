@@ -64,6 +64,19 @@ You may not alter the values in the list's nodes, only nodes themselves may be c
 - 解法2，快慢指针：快指针与慢指针相隔的区间做链表反转，其他节点按原顺序相连
 
 ```javascript
+// 反转链表：leecode-206
+function reverse(link, area) {
+    let p = link,
+        pre = null
+    while (p !== area) {
+        const tmp = p.next
+        p.next = pre
+        pre = p
+        p = tmp
+    }
+    return pre
+}
+
 // 解法1
 var reverseKGroup = function(head, k) {
     if (head === null) return null;
@@ -78,18 +91,6 @@ var reverseKGroup = function(head, k) {
 
     return newHead;
 };
-
-function reverse(link, area) {
-    let p = link,
-        pre = null
-    while (p !== area) {
-        const tmp = p.next
-        p.next = pre
-        pre = p
-        p = tmp
-    }
-    return pre
-}
 
 // 解法2
 var reverseKGroup = function (head, k) {
@@ -116,17 +117,6 @@ var reverseKGroup = function (head, k) {
     return newHead.next
 };
 
-function reverse(link, area) {
-    let p = link,
-        pre = null
-    while (p !== area) {
-        const tmp = p.next
-        p.next = pre
-        pre = p
-        p = tmp
-    }
-    return pre
-}
 ```
 
 [Back to list](../README.md)
