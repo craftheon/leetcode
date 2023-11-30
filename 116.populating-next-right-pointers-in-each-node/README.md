@@ -88,6 +88,19 @@ var connect = function(root) {
     connect(root.right);
     return root;
 };
+// 解法2
+var connect = function(root) {
+    if (root === null) return null;
+    const dfs = function (n1, n2) {
+      if (!n1 || !n2) return null
+      n1.next = n2
+      dfs(n1.left, n1.right)
+      dfs(n2.left, n2.right)
+      dfs(n1.right, n2.left)
+    }
+    dfs(root.left, root.right)
+    return root
+};
 ```
 
 [Back to list](../README.md)
