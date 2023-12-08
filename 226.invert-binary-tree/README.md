@@ -62,9 +62,7 @@ Given the `root` of a binary tree, invert the tree, and return *its root*.
 ```javascript
 var invertTree = function(root) {
     if (root === null) return null;
-    var tmp = root.left
-    root.left = root.right
-    root.right = tmp
+    [root.left, root.right] = [root.right, root.left]
     invertTree(root.left)
     invertTree(root.right)
     return root
