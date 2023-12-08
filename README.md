@@ -6,7 +6,7 @@ Leetcode algorithm solutions.
 
 All the codes are runnable, you can directly run these codes to view the results or debug. 
 
-| #(103) | Title | Solution | Difficulty |
+| #(104) | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./1.two-sum)|Easy| 
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./2.add-two-numbers)|Medium| 
@@ -76,6 +76,7 @@ All the codes are runnable, you can directly run these codes to view the results
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Solution](./230.kth-smallest-element-in-a-bst)|Medium| 
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Solution](./236.lowest-common-ancestor-of-a-binary-tree)|Medium| 
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Solution](./238.product-of-array-except-self)|Medium| 
+|257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Solution](./257.binary-tree-paths)|Easy| 
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Solution](./290.word-pattern)|Easy| 
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Solution](./300.longest-increasing-subsequence)|Medium| 
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Solution](./303.range-sum-query-immutable)|Easy| 
