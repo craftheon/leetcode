@@ -1,4 +1,4 @@
 code-solutions
 ---
 
-- [Leetcode]('leetcode/README.md')
+- [Leetcode](leetcode/README.md)
