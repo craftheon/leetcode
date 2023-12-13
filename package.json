@@ -1,0 +1,31 @@
+{
+  "name": "javascript-leetcode",
+  "version": "0.0.1",
+  "description": "Leetcode solutions with javascript",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuangwei/leetcode.git"
+  },
+  "author": "Yuang Wei <hi@yuangwei.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuangwei/leetcode/issues"
+  },
+  "homepage": "https://leetcode.about-blank.io",
+  "dependencies": {
+    "next": "^13.0.6",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "typescript": "^4.9.3"
+  }
+}

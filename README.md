@@ -1,4 +1,1 @@
-code-solutions
----
-
-- [Leetcode](leetcode/README.md)
+# Javascript-leetcode

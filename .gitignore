@@ -1,4 +1,2 @@
-.DS_Store
-.vscode
-/target
-cookie
+.next
+node_modules
