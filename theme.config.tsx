@@ -7,7 +7,7 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/yuangwei/javascript-leetcode',
   },
-  docsRepositoryBase: 'https://github.com/yuangwei/javascript-leetcode',
+  docsRepositoryBase: 'https://github.com/yuangwei/javascript-leetcode/tree/main',
   footer: {
     text: `${new Date().getFullYear()} © Yuang Wei`,
   },
