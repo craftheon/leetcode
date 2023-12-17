@@ -188,17 +188,15 @@ write solution in here
 fs.writeFileSync(path.join(base, `../pages/solutions/${question.slug}.mdx`), questionFile)
 
 
-const readmeHead = `| #(${data.length}) | Title | Solution | Difficulty | Tags | \n | ---| ----- | -------- | ---------- | ---- |\n`
+const readmeHead = `| #(${data.length}) | Title | Solution | Difficulty | Tags |\n| ---| ----- | -------- | ---------- | ---- |`
 
 const readmeBody = data.map(e => `| ${e.id} | [${e.title}](https://leetcode.com/problems/${e.slug}) | [Solution](/pages/solutions/${e.slug}.mdx) | ${e.difficulty} | ${e.tags.map(e => `${e.name}`)} |`)
 
 const readme = `javascript-leetcode
 ---
 Leetcode solutions with javascript
-
-  ## Solutions
-  ${readmeHead}
-  ${readmeBody.join('\n')}
+${readmeHead}
+${readmeBody.join('\n')}
 `
 
 fs.writeFileSync(path.join(base, '../README.md'), readme)
