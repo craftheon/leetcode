@@ -1,22 +1,3 @@
 {
-  "index": {
-    "title": "Home",
-    "theme": {
-      "footer": false,
-      "toc": false,
-      "breadcrumb": false,
-      "pagination": false,
-      "sidebar": true
-    },
-    "display": "hidden"
-  },
-  "introduction": "Introduction",
-  "topics": "Topics",
-  "solutions": "Solutions",
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://yuangwei.com/",
-    "newWindow": true
-  }
+  "solutions": "Solutions"
 }

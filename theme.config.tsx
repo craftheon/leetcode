@@ -5,11 +5,20 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <h1 className='nx-font-bold'>Javascript Leetcode</h1>,
   project: {
-    link: 'https://github.com/yuangwei/leetcode',
+    link: 'https://github.com/yuangwei/javascript-leetcode',
   },
-  docsRepositoryBase: 'https://yuangwei.com',
+  docsRepositoryBase: 'https://github.com/yuangwei/javascript-leetcode',
   footer: {
-    text: 'Copyright © 2023 Yuang Wei',
+    text: `${new Date().getFullYear()} © Yuang Wei`,
+  },
+  head(props) {
+    return (
+      <>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/logo.png" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </>
+    )
   },
   useNextSeoProps() {
     const { asPath } = useRouter();
@@ -20,7 +29,7 @@ const config: DocsThemeConfig = {
     }
 
     return {
-      titleTemplate: "%s - Javascript - Leetcode",
+      titleTemplate: "%s - Javascript Leetcode",
     };
   },
 }
