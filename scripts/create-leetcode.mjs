@@ -82,7 +82,6 @@ const getDetail = async function () {
       `)
   if (!data.content) throw new Error()
   const markdown = turndown.turndown(data.content)
-  console.log(markdown)
   return {
     content: markdown
   }
@@ -200,3 +199,5 @@ ${readmeBody.join('\n')}
 `
 
 fs.writeFileSync(path.join(base, '../README.md'), readme)
+
+console.log('Question Updated!')
