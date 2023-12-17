@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuangwei/leetcode.git"
+    "url": "git+https://github.com/yuangwei/javascript-leetcode.git"
   },
   "author": "Yuang Wei <hi@yuangwei.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuangwei/leetcode/issues"
+    "url": "https://github.com/yuangwei/javascript-leetcode/issues"
   },
   "homepage": "https://leetcode.about-blank.io",
   "dependencies": {
