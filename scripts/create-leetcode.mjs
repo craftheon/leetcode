@@ -167,9 +167,9 @@ fs.writeFileSync(path.join(base, './problems.json'), JSON.stringify(data))
 fs.writeFileSync(path.join(base, '../pages/solutions/_meta.json'), JSON.stringify(mtdata))
 
 
-const questionFile = `import { Problem, Code, Solution } from '@/components'
+const questionFile = `import { Problem, Code, Solution, Similar } from '@/components'
 
-<Problem slug="${question.slug}" title="${question.title}" difficulty="${question.difficulty}" tags={${JSON.stringify(question.tags)}} >
+<Problem slug="${question.slug}" id="${question.id}" title="${question.title}" difficulty="${question.difficulty}" tags={${JSON.stringify(question.tags)}} >
     ${question.content}
 </Problem >
 
@@ -182,6 +182,8 @@ write solution in here
 // write code in here
 \`\`\`
 </Code>
+
+<Similar data={${JSON.stringify(question.similars)}} />
 `
 
 fs.writeFileSync(path.join(base, `../pages/solutions/${question.slug}.mdx`), questionFile)
