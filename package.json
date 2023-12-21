@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "create": "node ./scripts/create-leetcode.mjs",
-    "publish": "sh ./scripts/update.sh"
+    "create": "node ./bin/create.mjs",
+    "publish": "sh ./bin/update.sh"
   },
   "repository": {
     "type": "git",
