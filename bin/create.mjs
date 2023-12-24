@@ -11,10 +11,8 @@ const ua = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (
 const base = path.dirname(fileURLToPath(import.meta.url))
 const cookie = fs.readFileSync(path.join(base, '../cookie')).toString()
 const problems = fs.readFileSync(path.join(base, './problems.json')).toString()
-const metaData = fs.readFileSync(path.join(base, '../pages/solutions/_meta.json')).toString()
 const turndown = new TurndownService()
 const data = JSON.parse(problems)
-const mtdata = JSON.parse(metaData)
 const gfm = turndownPluginGfm.gfm
 
 turndown.use(gfm)
@@ -162,10 +160,54 @@ if (!isExist) {
 }
 
 
-mtdata[question.slug] = question.title
+
+data.sort((a, b) => a.id - b.id)
+
+const mtdata = {}
+data.forEach(e => {
+  mtdata[e.slug] = e.title
+})
+
+// const allTags =
+//   data
+//     .map(e => e.tags)
+//     .reduce(((pre, cur) => {
+//       cur.forEach(e => pre.push(e))
+//       return pre
+//     }), [])
+//     .reduce((pre, cur) => {
+//       pre[cur.slug] = cur.name
+//       return pre
+//     }, {})
+
+// const tagkeys = Object.keys(allTags)
+
+// console.log(tagkeys)
+// for (let i = 0; i < tagkeys.length; i++) {
+//   if (!fs.existsSync(path.join(base, `../pages/topics/${tagkeys[i]}.mdx`))) {
+//   const topicFile = `import { Callout } from 'nextra/components'
+
+// # ${allTags[tagkeys[i]]}
+
+// <Callout type="warning" emoji="💡">
+//   This topic is a stub. Help us expand it by contributing!
+//   <a href="https://github.com/yuangwei/javascript-leetcode" class="nx-font-bold" target="_blank">Click Here!</a>
+// </Callout>
+// `
+//   fs.writeFileSync(path.join(base, '../pages/topics/_meta.json'), JSON.stringify(allTags))
+//   fs.writeFileSync(path.join(base, `../pages/topics/${tagkeys[i]}.mdx`), topicFile)
+//   try {
+//     fs.unlinkSync(path.join(base, `../pages/solutions/${tagkeys[i]}.mdx`));
+//   } catch (err) {
+
+//   }
+
+// }
+// }
+
+
 fs.writeFileSync(path.join(base, './problems.json'), JSON.stringify(data))
 fs.writeFileSync(path.join(base, '../pages/solutions/_meta.json'), JSON.stringify(mtdata))
-
 
 const questionFile = `import { Problem, Code, Solution, Similar } from '@/components'
 

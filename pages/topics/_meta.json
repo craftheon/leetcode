@@ -1,4 +1,14 @@
 {
   "array": "Array",
-  "two-pointers": "Two Pointers"
+  "string": "String",
+  "linked-list": "Linked List",
+  "hash-table": "Hash Table",
+  "heap-stack": "Stack & Heap",
+  "tree": "Binary Tree",
+  "matrix": "Matrix",
+  "two-pointers": "Two Pointers",
+  "binary-search": "Binary Search",
+  "sorting": "Sorting",
+  "backtracking": "Backtracking",
+  "dynamic-programming": "Dynamic Programming"
 }
