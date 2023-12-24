@@ -21,7 +21,7 @@ turndown.addRule('code', {
   filter: ['pre'],
   replacement: function (content) {
     const c = content.replace(/[\\*]/g, '')
-    return '\n```javascript \n' + c + '```'
+    return '\n```javascript \n' + c + '\n```'
   }
 })
 
@@ -249,4 +249,4 @@ ${readmeBody.join('\n')}
 
 fs.writeFileSync(path.join(base, '../README.md'), readme)
 
-console.log('Question Updated!')
+console.log('Question Updated!', slug)
