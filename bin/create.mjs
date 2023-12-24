@@ -21,7 +21,7 @@ turndown.addRule('code', {
   filter: ['pre'],
   replacement: function (content) {
     const c = content.replace(/[\\*]/g, '')
-    return '```javascript \n' + c + '```'
+    return '\n```javascript \n' + c + '```'
   }
 })
 
@@ -165,7 +165,12 @@ data.sort((a, b) => a.id - b.id)
 
 const mtdata = {}
 data.forEach(e => {
-  mtdata[e.slug] = e.title
+  const map = {
+    'Easy': '🟢',
+    'Medium': '🟠',
+    'Hard': '🔴',
+  }
+  mtdata[e.slug] = `${map[e.difficulty]} ${e.title}`
 })
 
 // const allTags =
