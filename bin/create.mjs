@@ -173,42 +173,6 @@ data.forEach(e => {
   mtdata[e.slug] = `${map[e.difficulty]} ${e.title}`
 })
 
-// const allTags =
-//   data
-//     .map(e => e.tags)
-//     .reduce(((pre, cur) => {
-//       cur.forEach(e => pre.push(e))
-//       return pre
-//     }), [])
-//     .reduce((pre, cur) => {
-//       pre[cur.slug] = cur.name
-//       return pre
-//     }, {})
-
-// const tagkeys = Object.keys(allTags)
-
-// console.log(tagkeys)
-// for (let i = 0; i < tagkeys.length; i++) {
-//   if (!fs.existsSync(path.join(base, `../pages/topics/${tagkeys[i]}.mdx`))) {
-//   const topicFile = `import { Callout } from 'nextra/components'
-
-// # ${allTags[tagkeys[i]]}
-
-// <Callout type="warning" emoji="💡">
-//   This topic is a stub. Help us expand it by contributing!
-//   <a href="https://github.com/yuangwei/javascript-leetcode" class="nx-font-bold" target="_blank">Click Here!</a>
-// </Callout>
-// `
-//   fs.writeFileSync(path.join(base, '../pages/topics/_meta.json'), JSON.stringify(allTags))
-//   fs.writeFileSync(path.join(base, `../pages/topics/${tagkeys[i]}.mdx`), topicFile)
-//   try {
-//     fs.unlinkSync(path.join(base, `../pages/solutions/${tagkeys[i]}.mdx`));
-//   } catch (err) {
-
-//   }
-
-// }
-// }
 
 
 fs.writeFileSync(path.join(base, './problems.json'), JSON.stringify(data))
@@ -233,7 +197,13 @@ write solution in here
 <Similar data={${JSON.stringify(question.similars)}} />
 `
 
-fs.writeFileSync(path.join(base, `../pages/solutions/${question.slug}.mdx`), questionFile)
+// update question
+const qp = path.join(base, `../pages/solutions/${question.slug}.mdx`)
+if (!fs.existsSync(qp)) {
+  fs.writeFileSync(qp, questionFile)
+} else {
+  console.log(`${qp} is Exist! Pass.`)
+}
 
 
 const readmeHead = `| #(${data.length}) | Title | Solution | Difficulty  |\n| ---| ----- | -------- | ---------- | `
