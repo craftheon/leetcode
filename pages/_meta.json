@@ -1,5 +1,14 @@
 {
-  "index": "Introduction",
+  "index": {
+    "title": "Introduction",
+    "theme": {
+      "footer": false,
+      "toc": true,
+      "breadcrumb": false,
+      "pagination": false,
+      "sidebar": true
+    }
+  },
   "topics": "Topics",
   "solutions": "Solutions"
 }
