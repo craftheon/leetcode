@@ -1,3 +1,5 @@
+// create solution
+
 import { GraphQLClient, gql } from 'graphql-request'
 import fs from 'node:fs'
 import path from "node:path"
