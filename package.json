@@ -4,21 +4,21 @@
   "description": "Leetcode solutions with javascript",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build  && next export",
     "start": "next start",
     "create": "node ./bin/create.mjs",
     "publish": "sh ./bin/update.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuangwei/javascript-leetcode.git"
+    "url": "git+https://github.com/gavinleige/javascript-leetcode.git"
   },
-  "author": "Yuang Wei <hi@yuangwei.com>",
+  "author": "GavinLeige <hi@gavinleige.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuangwei/javascript-leetcode/issues"
+    "url": "https://github.com/gavinleige/javascript-leetcode/issues"
   },
-  "homepage": "https://leetcode.about-blank.io",
+  "homepage": "https://leetcode.js.org",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "latest",
