@@ -4,7 +4,7 @@
   "description": "Leetcode solutions with javascript",
   "scripts": {
     "dev": "next dev",
-    "build": "next build  && next export",
+    "build": "next build",
     "start": "next start",
     "create": "node ./bin/create.mjs",
     "publish": "sh ./bin/update.sh"
