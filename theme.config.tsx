@@ -5,11 +5,11 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <h1 className='nx-font-bold'>Javascript Leetcode</h1>,
   project: {
-    link: 'https://github.com/yuangwei/javascript-leetcode',
+    link: 'https://github.com/gavinleige/leetcode',
   },
-  docsRepositoryBase: 'https://github.com/yuangwei/javascript-leetcode/tree/main',
+  docsRepositoryBase: 'https://github.com/gavinleige/leetcode/tree/main',
   footer: {
-    text: `${new Date().getFullYear()} © Yuang Wei`,
+    text: (<span>{new Date().getFullYear()} © <a href="https://gavinleige.com" target='_blank'>GavinLeige</a></span>),
   },
   head(props) {
     return (
