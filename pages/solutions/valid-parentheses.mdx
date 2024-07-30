@@ -1,0 +1,74 @@
+import { Problem, Code, Solution, Similar } from '@/components'
+
+<Problem slug="valid-parentheses" id="20" title="Valid Parentheses" difficulty="Easy" tags={[{"name":"String","slug":"string"},{"name":"Stack","slug":"stack"}]} >
+    Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
+
+An input string is valid if:
+
+1.  Open brackets must be closed by the same type of brackets.
+2.  Open brackets must be closed in the correct order.
+3.  Every close bracket has a corresponding open bracket of the same type.
+
+**Example 1:**
+
+```javascript 
+Input: s = "()"
+Output: true
+
+```
+
+**Example 2:**
+
+```javascript 
+Input: s = "()[]{}"
+Output: true
+
+```
+
+**Example 3:**
+
+```javascript 
+Input: s = "(]"
+Output: false
+
+```
+
+**Constraints:**
+
+*   `1 <= s.length <= 104`
+*   `s` consists of parentheses only `'()[]{}'`.
+</Problem >
+
+<Solution>
+write solution in here
+</Solution>
+
+<Code>
+```javascript
+const parentheseMap = {
+  "(": ")",
+  "[": "]",
+  "{": "}"
+}
+/**
+ * @param {string} s
+ * @return {boolean}
+ */
+var isValid = function (s) {
+  const stack = []
+  for (let i = 0; i < s.length; i++) {
+    if (Object.keys(parentheseMap).includes(s[i])) {
+      stack.push(parentheseMap[s[i]])
+    } else {
+      const curr = stack.pop()
+      if (curr !== s[i]) {
+        return false
+      }
+    }
+  }
+  return stack.length === 0
+};
+```
+</Code>
+
+<Similar data={[{"title":"Generate Parentheses","slug":"generate-parentheses","difficulty":"Medium"},{"title":"Longest Valid Parentheses","slug":"longest-valid-parentheses","difficulty":"Hard"},{"title":"Remove Invalid Parentheses","slug":"remove-invalid-parentheses","difficulty":"Hard"},{"title":"Check If Word Is Valid After Substitutions","slug":"check-if-word-is-valid-after-substitutions","difficulty":"Medium"}]} />

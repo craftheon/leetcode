@@ -1,0 +1,65 @@
+import { Problem, Code, Solution, Similar } from '@/components'
+
+<Problem slug="palindrome-number" id="9" title="Palindrome Number" difficulty="Easy" tags={[{"name":"Math","slug":"math"}]} >
+    Given an integer `x`, return `true` _if_ `x` _is a_ _**palindrome**__, and_ `false` _otherwise_.
+
+**Example 1:**
+
+```javascript 
+Input: x = 121
+Output: true
+Explanation: 121 reads as 121 from left to right and from right to left.
+
+```
+
+**Example 2:**
+
+```javascript 
+Input: x = -121
+Output: false
+Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+
+```
+
+**Example 3:**
+
+```javascript 
+Input: x = 10
+Output: false
+Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+
+```
+
+**Constraints:**
+
+*   `-231 <= x <= 231 - 1`
+
+**Follow up:** Could you solve it without converting the integer to a string?
+</Problem >
+
+<Solution>
+write solution in here
+</Solution>
+
+<Code>
+```javascript
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+var isPalindrome = function (x) {
+  const s = String(x)
+  let l = 0, r = s.length - 1
+  while (l <= r) {
+    if (s[l] !== s[r]) {
+      return false
+    }
+    l++
+    r--
+  }
+  return true
+};
+```
+</Code>
+
+<Similar data={[{"title":"Palindrome Linked List","slug":"palindrome-linked-list","difficulty":"Easy"},{"title":"Find Palindrome With Fixed Length","slug":"find-palindrome-with-fixed-length","difficulty":"Medium"},{"title":"Strictly Palindromic Number","slug":"strictly-palindromic-number","difficulty":"Medium"},{"title":"  Count Symmetric Integers","slug":"count-symmetric-integers","difficulty":"Easy"}]} />
