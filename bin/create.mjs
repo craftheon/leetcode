@@ -212,12 +212,9 @@ const readmeHead = `| #(${data.length}) | Title | Solution | Difficulty  |\n| --
 
 const readmeBody = data.map(e => `| ${e.id} | [${e.title}](https://leetcode.com/problems/${e.slug}) | [Solution](/pages/solutions/${e.slug}.mdx) | ${e.difficulty} |`)
 
-const readme = `javascript-leetcode
+const readme = `JavaScript-LeetCode
 ---
-<div align="center">
-<a href="https://leetcode.about-blank.io/"><img src="/public/banner.svg" alt="banner" width="100px"/></a>
-Master LeetCode with the Simplicity of JavaScript.
-</div>
+Mastering Leetcode Problem-Solving Using Simple JavaScript.
 
 ${readmeHead}
 ${readmeBody.join('\n')}

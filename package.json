@@ -1,7 +1,7 @@
 {
   "name": "javascript-leetcode",
   "version": "0.0.1",
-  "description": "Leetcode solutions with javascript",
+  "description": "Leetcode solutions with JavaScript",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
