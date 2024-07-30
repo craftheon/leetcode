@@ -2,7 +2,7 @@ JavaScript-LeetCode
 ---
 Mastering Leetcode Problem-Solving Using Simple JavaScript.
 
-| #(6) | Title | Solution | Difficulty  |
+| #(7) | Title | Solution | Difficulty  |
 | ---| ----- | -------- | ---------- | 
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum) | [Solution](/pages/solutions/two-sum.mdx) | Easy |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | [Solution](/pages/solutions/palindrome-number.mdx) | Easy |
@@ -10,3 +10,4 @@ Mastering Leetcode Problem-Solving Using Simple JavaScript.
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [Solution](/pages/solutions/merge-two-sorted-lists.mdx) | Easy |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [Solution](/pages/solutions/best-time-to-buy-and-sell-stock.mdx) | Easy |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | [Solution](/pages/solutions/valid-palindrome.mdx) | Easy |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | [Solution](/pages/solutions/invert-binary-tree.mdx) | Easy |
