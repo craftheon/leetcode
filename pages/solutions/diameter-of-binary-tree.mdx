@@ -1,0 +1,59 @@
+import { Problem, Code, Solution, Similar } from '@/components'
+
+<Problem slug="diameter-of-binary-tree" id="543" title="Diameter of Binary Tree" difficulty="Easy" tags={[{"name":"Tree","slug":"tree"},{"name":"Depth-First Search","slug":"depth-first-search"},{"name":"Binary Tree","slug":"binary-tree"}]} >
+    Given the `root` of a binary tree, return _the length of the **diameter** of the tree_.
+
+The **diameter** of a binary tree is the **length** of the longest path between any two nodes in a tree. This path may or may not pass through the `root`.
+
+The **length** of a path between two nodes is represented by the number of edges between them.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2021/03/06/diamtree.jpg)
+```javascript 
+Input: root = [1,2,3,4,5]
+Output: 3
+Explanation: 3 is the length of the path [4,2,1,3] or [5,2,1,3].
+
+```
+
+**Example 2:**
+
+```javascript 
+Input: root = [1,2]
+Output: 1
+
+```
+
+**Constraints:**
+
+*   The number of nodes in the tree is in the range `[1, 104]`.
+*   `-100 <= Node.val <= 100`
+</Problem >
+
+<Solution>
+write solution in here
+</Solution>
+
+<Code>
+```javascript
+/**
+ * @param {TreeNode} root
+ * @return {number}
+ */
+var diameterOfBinaryTree = function(root) {
+    let res = 0
+    const reserve = function(root) {
+      if (!root) return null
+      let l = reserve(root.left),
+        r = reserve(root.right)
+      res = Math.max(res, l + r)
+      return Math.max(l, r) + 1
+    }
+    reserve(root)
+    return res
+};
+```
+</Code>
+
+<Similar data={[{"title":"Diameter of N-Ary Tree","slug":"diameter-of-n-ary-tree","difficulty":"Medium"},{"title":"Longest Path With Different Adjacent Characters","slug":"longest-path-with-different-adjacent-characters","difficulty":"Hard"}]} />

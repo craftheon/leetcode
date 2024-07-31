@@ -1,0 +1,65 @@
+import { Problem, Code, Solution, Similar } from '@/components'
+
+<Problem slug="balanced-binary-tree" id="110" title="Balanced Binary Tree" difficulty="Easy" tags={[{"name":"Tree","slug":"tree"},{"name":"Depth-First Search","slug":"depth-first-search"},{"name":"Binary Tree","slug":"binary-tree"}]} >
+    Given a binary tree, determine if it is **height-balanced**.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2020/10/06/balance_1.jpg)
+```javascript 
+Input: root = [3,9,20,null,null,15,7]
+Output: true
+
+```
+
+**Example 2:**
+
+![](https://assets.leetcode.com/uploads/2020/10/06/balance_2.jpg)
+```javascript 
+Input: root = [1,2,2,3,3,null,null,4,4]
+Output: false
+
+```
+
+**Example 3:**
+
+```javascript 
+Input: root = []
+Output: true
+
+```
+
+**Constraints:**
+
+*   The number of nodes in the tree is in the range `[0, 5000]`.
+*   `-104 <= Node.val <= 104`
+</Problem >
+
+<Solution>
+write solution in here
+</Solution>
+
+<Code>
+```javascript
+/**
+ * @param {TreeNode} root
+ * @return {boolean}
+ */
+var isBalanced = function(root) {
+  let res = true
+  var traverse = function(root) {
+    if (!root) return 0
+    let l = traverse(root.left),
+      r = traverse(root.right)
+    if (Math.abs(l - r) > 1) {
+      res = false
+    }
+    return Math.max(l, r) + 1
+  }
+  traverse(root)
+  return res
+};
+```
+</Code>
+
+<Similar data={[{"title":"Maximum Depth of Binary Tree","slug":"maximum-depth-of-binary-tree","difficulty":"Easy"}]} />
