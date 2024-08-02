@@ -2,7 +2,7 @@ JavaScript-LeetCode
 ---
 Mastering Leetcode Problem-Solving Using Simple JavaScript.
 
-| #(11) | Title | Solution | Difficulty  |
+| #(13) | Title | Solution | Difficulty  |
 | ---| ----- | -------- | ---------- | 
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum) | [Solution](/pages/solutions/two-sum.mdx) | Easy |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | [Solution](/pages/solutions/palindrome-number.mdx) | Easy |
@@ -14,4 +14,6 @@ Mastering Leetcode Problem-Solving Using Simple JavaScript.
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | [Solution](/pages/solutions/valid-palindrome.mdx) | Easy |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [Solution](/pages/solutions/linked-list-cycle.mdx) | Easy |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | [Solution](/pages/solutions/invert-binary-tree.mdx) | Easy |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [Solution](/pages/solutions/valid-anagram.mdx) | Easy |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | [Solution](/pages/solutions/diameter-of-binary-tree.mdx) | Easy |
+| 792 | [Binary Search](https://leetcode.com/problems/binary-search) | [Solution](/pages/solutions/binary-search.mdx) | Easy |
