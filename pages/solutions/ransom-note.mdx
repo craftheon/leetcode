@@ -1,0 +1,62 @@
+import { Problem, Code, Solution, Similar } from '@/components'
+
+<Problem slug="ransom-note" id="383" title="Ransom Note" difficulty="Easy" tags={[{"name":"Hash Table","slug":"hash-table"},{"name":"String","slug":"string"},{"name":"Counting","slug":"counting"}]} >
+    Given two strings `ransomNote` and `magazine`, return `true` _if_ `ransomNote` _can be constructed by using the letters from_ `magazine` _and_ `false` _otherwise_.
+
+Each letter in `magazine` can only be used once in `ransomNote`.
+
+**Example 1:**
+
+```javascript 
+Input: ransomNote = "a", magazine = "b"
+Output: false
+
+```
+
+**Example 2:**
+
+```javascript 
+Input: ransomNote = "aa", magazine = "ab"
+Output: false
+
+```
+
+**Example 3:**
+
+```javascript 
+Input: ransomNote = "aa", magazine = "aab"
+Output: true
+
+```
+
+**Constraints:**
+
+*   `1 <= ransomNote.length, magazine.length <= 105`
+*   `ransomNote` and `magazine` consist of lowercase English letters.
+</Problem >
+
+<Solution>
+write solution in here
+</Solution>
+
+<Code>
+```javascript
+/**
+ * @param {string} ransomNote
+ * @param {string} magazine
+ * @return {boolean}
+ */
+var canConstruct = function (ransomNote, magazine) {
+  const ra = ransomNote.split(''),
+    ma = magazine.split('')
+  while (ra.length) {
+    const curIndex = ma.indexOf(ra.pop())
+    if (curIndex === -1) return false
+    ma.splice(curIndex, 1)
+  }
+  return true
+};
+```
+</Code>
+
+<Similar data={[{"title":"Stickers to Spell Word","slug":"stickers-to-spell-word","difficulty":"Hard"}]} />

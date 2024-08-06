@@ -1,0 +1,60 @@
+import { Problem, Code, Solution, Similar } from '@/components'
+
+<Problem slug="reverse-linked-list" id="206" title="Reverse Linked List" difficulty="Easy" tags={[{"name":"Linked List","slug":"linked-list"},{"name":"Recursion","slug":"recursion"}]} >
+    Given the `head` of a singly linked list, reverse the list, and return _the reversed list_.
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2021/02/19/rev1ex1.jpg)
+```javascript 
+Input: head = [1,2,3,4,5]
+Output: [5,4,3,2,1]
+
+```
+
+**Example 2:**
+
+![](https://assets.leetcode.com/uploads/2021/02/19/rev1ex2.jpg)
+```javascript 
+Input: head = [1,2]
+Output: [2,1]
+
+```
+
+**Example 3:**
+
+```javascript 
+Input: head = []
+Output: []
+
+```
+
+**Constraints:**
+
+*   The number of nodes in the list is the range `[0, 5000]`.
+*   `-5000 <= Node.val <= 5000`
+
+**Follow up:** A linked list can be reversed either iteratively or recursively. Could you implement both?
+</Problem >
+
+<Solution>
+write solution in here
+</Solution>
+
+<Code>
+```javascript
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+var reverseList = function (head) {
+  if (head == null || head.next == null) return head;
+  const last = reverseList(head.next);
+  head.next.next = head;
+  head.next = null;
+  return last;
+};
+```
+</Code>
+
+<Similar data={[{"title":"Reverse Linked List II","slug":"reverse-linked-list-ii","difficulty":"Medium"},{"title":"Binary Tree Upside Down","slug":"binary-tree-upside-down","difficulty":"Medium"},{"title":"Palindrome Linked List","slug":"palindrome-linked-list","difficulty":"Easy"},{"title":"Reverse Nodes in Even Length Groups","slug":"reverse-nodes-in-even-length-groups","difficulty":"Medium"}]} />
