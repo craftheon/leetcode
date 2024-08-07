@@ -210,7 +210,7 @@ if (!fs.existsSync(qp)) {
 
 const readmeHead = `| #(${data.length}) | Title | Solution | Difficulty  |\n| ---| ----- | -------- | ---------- | `
 
-const readmeBody = data.map(e => `| ${e.id} | [${e.title}](https://leetcode.com/problems/${e.slug}) | [Solution](/pages/solutions/${e.slug}.mdx) | ${e.difficulty} |`)
+const readmeBody = data.map(e => `| ${e.id} | [${e.title}](https://leetcode.com/problems/${e.slug}) | [Solution](https://leetcode.js.org/solutions/${e.slug}) | ${e.difficulty} |`)
 
 const readme = `JavaScript-LeetCode
 ---
