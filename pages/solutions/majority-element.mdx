@@ -1,0 +1,59 @@
+import { Problem, Code, Solution, Similar } from '@/components'
+
+<Problem slug="majority-element" id="169" title="Majority Element" difficulty="Easy" tags={[{"name":"Array","slug":"array"},{"name":"Hash Table","slug":"hash-table"},{"name":"Divide and Conquer","slug":"divide-and-conquer"},{"name":"Sorting","slug":"sorting"},{"name":"Counting","slug":"counting"}]} >
+    Given an array `nums` of size `n`, return _the majority element_.
+
+The majority element is the element that appears more than `⌊n / 2⌋` times. You may assume that the majority element always exists in the array.
+
+**Example 1:**
+
+```javascript 
+Input: nums = [3,2,3]
+Output: 3
+
+```
+
+**Example 2:**
+
+```javascript 
+Input: nums = [2,2,1,1,1,2,2]
+Output: 2
+
+```
+
+**Constraints:**
+
+*   `n == nums.length`
+*   `1 <= n <= 5 * 104`
+*   `-109 <= nums[i] <= 109`
+
+**Follow-up:** Could you solve the problem in linear time and in `O(1)` space?
+</Problem >
+
+<Solution>
+write solution in here
+</Solution>
+
+<Code>
+```javascript
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var majorityElement = function (nums) {
+  let cache = new Map(), res = 0, maxLen = 0
+  for (let i = 0; i < nums.length; i++) {
+    cache.set(nums[i], cache.has(nums[i]) ? cache.get(nums[i]) + 1 : 1)
+  }
+  cache.forEach((v, k) => {
+    if (v > maxLen) {
+      res = k
+      maxLen = v
+    }
+  })
+  return res
+};
+```
+</Code>
+
+<Similar data={[{"title":"Majority Element II","slug":"majority-element-ii","difficulty":"Medium"},{"title":"Check If a Number Is Majority Element in a Sorted Array","slug":"check-if-a-number-is-majority-element-in-a-sorted-array","difficulty":"Easy"},{"title":"Most Frequent Even Element","slug":"most-frequent-even-element","difficulty":"Easy"},{"title":"Minimum Index of a Valid Split","slug":"minimum-index-of-a-valid-split","difficulty":"Medium"}]} />
