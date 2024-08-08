@@ -1,0 +1,63 @@
+import { Problem, Code, Solution, Similar } from '@/components'
+
+<Problem slug="counting-bits" id="338" title="Counting Bits" difficulty="Easy" tags={[{"name":"Dynamic Programming","slug":"dynamic-programming"},{"name":"Bit Manipulation","slug":"bit-manipulation"}]} >
+    Given an integer `n`, return _an array_ `ans` _of length_ `n + 1` _such that for each_ `i` (`0 <= i <= n`)_,_ `ans[i]` _is the **number of**_ `1`_**'s** in the binary representation of_ `i`.
+
+**Example 1:**
+
+```javascript 
+Input: n = 2
+Output: [0,1,1]
+Explanation:
+0 --> 0
+1 --> 1
+2 --> 10
+
+```
+
+**Example 2:**
+
+```javascript 
+Input: n = 5
+Output: [0,1,1,2,1,2]
+Explanation:
+0 --> 0
+1 --> 1
+2 --> 10
+3 --> 11
+4 --> 100
+5 --> 101
+
+```
+
+**Constraints:**
+
+*   `0 <= n <= 105`
+
+**Follow up:**
+
+*   It is very easy to come up with a solution with a runtime of `O(n log n)`. Can you do it in linear time `O(n)` and possibly in a single pass?
+*   Can you do it without using any built-in function (i.e., like `__builtin_popcount` in C++)?
+</Problem >
+
+<Solution>
+write solution in here
+</Solution>
+
+<Code>
+```javascript
+/**
+ * @param {number} n
+ * @return {number[]}
+ */
+var countBits = function(n) {
+  const ans = new Array(n + 1).fill(0);
+  for (let i = 1; i <= n; i++) {
+    ans[i] = ans[i >> 1] + (i & 1);
+  }
+  return ans;
+};
+```
+</Code>
+
+<Similar data={[{"title":"Number of 1 Bits","slug":"number-of-1-bits","difficulty":"Easy"},{"title":"Sum of Values at Indices With K Set Bits","slug":"sum-of-values-at-indices-with-k-set-bits","difficulty":"Easy"},{"title":"Find the K-or of an Array","slug":"find-the-k-or-of-an-array","difficulty":"Easy"}]} />
