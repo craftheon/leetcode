@@ -10,7 +10,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/gavinleige/leetcode/tree/main',
   footer: {
-    text: (<span>{new Date().getFullYear()} © <a href="https://gavinleige.com" target='_blank'>GavinLeige</a></span>),
+    text: (<span>{new Date().getFullYear()} © <a href="https://gavinleige.com" target='_blank'>Gavin Wei</a></span>),
   },
   head(props) {
     return (
@@ -49,7 +49,7 @@ const config: DocsThemeConfig = {
           name="twitter:image"
           content="https://leetcode.js.org/banner.png"
         />
-        <meta name="author" content="GavinLeige" />
+        <meta name="author" content="Gavin Wei" />
       </>
     )
   },

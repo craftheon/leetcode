@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/gavinleige/javascript-leetcode.git"
   },
-  "author": "GavinLeige <hi@gavinleige.com>",
+  "author": "Gavin Wei <hi@gavinleige.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gavinleige/javascript-leetcode/issues"
