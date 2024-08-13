@@ -2,12 +2,13 @@ JavaScript-LeetCode
 ---
 Mastering Leetcode Problem-Solving Using Simple JavaScript.
 
-| #(23) | Title | Solution | Difficulty  |
+| #(24) | Title | Solution | Difficulty  |
 | ---| ----- | -------- | ---------- | 
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum) | [Solution](https://leetcode.js.org/solutions/two-sum) | Easy |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | [Solution](https://leetcode.js.org/solutions/palindrome-number) | Easy |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | [Solution](https://leetcode.js.org/solutions/valid-parentheses) | Easy |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [Solution](https://leetcode.js.org/solutions/merge-two-sorted-lists) | Easy |
+| 57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | [Solution](https://leetcode.js.org/solutions/insert-interval) | Medium |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Solution](https://leetcode.js.org/solutions/climbing-stairs) | Easy |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [Solution](https://leetcode.js.org/solutions/maximum-depth-of-binary-tree) | Easy |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | [Solution](https://leetcode.js.org/solutions/balanced-binary-tree) | Easy |
