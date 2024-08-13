@@ -2,7 +2,7 @@ JavaScript-LeetCode
 ---
 Mastering Leetcode Problem-Solving Using Simple JavaScript.
 
-| #(25) | Title | Solution | Difficulty  |
+| #(26) | Title | Solution | Difficulty  |
 | ---| ----- | -------- | ---------- | 
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum) | [Solution](https://leetcode.js.org/solutions/two-sum) | Easy |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | [Solution](https://leetcode.js.org/solutions/palindrome-number) | Easy |
@@ -11,6 +11,7 @@ Mastering Leetcode Problem-Solving Using Simple JavaScript.
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [Solution](https://leetcode.js.org/solutions/merge-two-sorted-lists) | Easy |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | [Solution](https://leetcode.js.org/solutions/insert-interval) | Medium |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Solution](https://leetcode.js.org/solutions/climbing-stairs) | Easy |
+| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Solution](https://leetcode.js.org/solutions/binary-tree-level-order-traversal) | Medium |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [Solution](https://leetcode.js.org/solutions/maximum-depth-of-binary-tree) | Easy |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | [Solution](https://leetcode.js.org/solutions/balanced-binary-tree) | Easy |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [Solution](https://leetcode.js.org/solutions/best-time-to-buy-and-sell-stock) | Easy |

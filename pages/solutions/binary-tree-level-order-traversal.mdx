@@ -1,0 +1,66 @@
+import { Problem, Code, Solution, Similar } from '@/components'
+
+<Problem slug="binary-tree-level-order-traversal" id="102" title="Binary Tree Level Order Traversal" difficulty="Medium" tags={[{"name":"Tree","slug":"tree"},{"name":"Breadth-First Search","slug":"breadth-first-search"},{"name":"Binary Tree","slug":"binary-tree"}]} >
+    Given the `root` of a binary tree, return _the level order traversal of its nodes' values_. (i.e., from left to right, level by level).
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2021/02/19/tree1.jpg)
+```javascript 
+Input: root = [3,9,20,null,null,15,7]
+Output: [[3],[9,20],[15,7]]
+
+```
+
+**Example 2:**
+
+```javascript 
+Input: root = [1]
+Output: [[1]]
+
+```
+
+**Example 3:**
+
+```javascript 
+Input: root = []
+Output: []
+
+```
+
+**Constraints:**
+
+*   The number of nodes in the tree is in the range `[0, 2000]`.
+*   `-1000 <= Node.val <= 1000`
+</Problem >
+
+<Solution>
+write solution in here
+</Solution>
+
+<Code>
+```javascript
+/**
+ * @param {TreeNode} root
+ * @return {number[][]}
+ */
+var levelOrder = function(root) {
+    if (!root) return []
+    const queue = [root], res = []
+    while(queue.length) {
+      const len = queue.length,
+        cur = []
+      for(let i = 0; i < len; i ++) {
+        const curr = queue.shift()
+        cur.push(curr.val)
+        curr.left && queue.push(curr.left)
+        curr.right && queue.push(curr.right)
+      }
+      res.push(cur)
+    }
+    return res
+};
+```
+</Code>
+
+<Similar data={[{"title":"Binary Tree Zigzag Level Order Traversal","slug":"binary-tree-zigzag-level-order-traversal","difficulty":"Medium"},{"title":"Binary Tree Level Order Traversal II","slug":"binary-tree-level-order-traversal-ii","difficulty":"Medium"},{"title":"Minimum Depth of Binary Tree","slug":"minimum-depth-of-binary-tree","difficulty":"Easy"},{"title":"Binary Tree Vertical Order Traversal","slug":"binary-tree-vertical-order-traversal","difficulty":"Medium"}]} />
