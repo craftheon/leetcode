@@ -2,10 +2,11 @@ JavaScript-LeetCode
 ---
 Mastering Leetcode Problem-Solving Using Simple JavaScript.
 
-| #(24) | Title | Solution | Difficulty  |
+| #(25) | Title | Solution | Difficulty  |
 | ---| ----- | -------- | ---------- | 
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum) | [Solution](https://leetcode.js.org/solutions/two-sum) | Easy |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | [Solution](https://leetcode.js.org/solutions/palindrome-number) | Easy |
+| 15 | [3Sum](https://leetcode.com/problems/3sum) | [Solution](https://leetcode.js.org/solutions/3sum) | Medium |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | [Solution](https://leetcode.js.org/solutions/valid-parentheses) | Easy |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [Solution](https://leetcode.js.org/solutions/merge-two-sorted-lists) | Easy |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | [Solution](https://leetcode.js.org/solutions/insert-interval) | Medium |
